@@ -1,0 +1,27 @@
+#name-div {
+    position: absolute;
+    width: 100%;
+    height: max-content;
+    background-color: black;
+    color: snow;
+    font-family: 'Philosopher', sans-serif;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-size: 1.8rem;
+}
+
+.title-flex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#name {
+    margin: 30px;
+}
+
+.job {
+    margin: 15px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 2rem;
+}

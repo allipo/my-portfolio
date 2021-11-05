@@ -1,0 +1,21 @@
+.cls-1 {
+    fill:#1c2f5d;
+}
+.cls-1,.cls-2,.cls-3,.cls-4 {
+    stroke:#231f20;
+    stroke-miterlimit:10;
+    stroke-width:2px;
+}
+.cls-2 {
+    fill:#69160e;
+}
+.cls-3 {
+    fill:#d1e6b9;
+}
+.cls-4 {
+    fill:#00aeef;
+}
+
+.crack:hover {
+    opacity: 0.2;
+}
