@@ -1,0 +1,15 @@
+#header-container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: snow;
+}
+
+#title-container {
+    background-color: black;
+    width: 100vw;
+    color: snow;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
