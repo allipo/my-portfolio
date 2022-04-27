@@ -1,15 +1,18 @@
 import React from "react";
+import NavBar from "../../components/nav-bar/navbar";
 import PageTitle from "../../components/page-title/PageTitle";
 import ContentHolder from "../../components/content-holder/ContentHolder";
+import Footer from "../../components/footer/footer";
 
 let aboutTitle = "About Me";
-let aboutContent = "blah blah blah";
 
 function About() {
   return (
     <>
+      <NavBar />
       <PageTitle title={aboutTitle} />
-      <ContentHolder content={aboutContent} />
+      <ContentHolder />
+      <Footer />
     </>
   );
 }

@@ -4,17 +4,17 @@ import PageTitle from "../../components/page-title/PageTitle";
 import ContentHolder from "../../components/content-holder/ContentHolder";
 import Footer from "../../components/footer/footer";
 
-let resumeTitle = "Résumé";
+let caseStudiesTitle = "Case Studies";
 
-function Resume() {
+function CaseStudies() {
   return (
     <>
       <NavBar />
-      <PageTitle title={resumeTitle} />
+      <PageTitle title={caseStudiesTitle} />
       <ContentHolder />
       <Footer />
     </>
   );
 }
 
-export default Resume;
+export default CaseStudies;

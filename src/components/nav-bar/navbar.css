@@ -1,0 +1,20 @@
+#nav-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: snow;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.nav-child {
+    margin: 20px 40px; 
+}
+
+#logo {
+    flex-grow: 1;
+    font-size: 3.2rem;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 5vw;
+    
+}

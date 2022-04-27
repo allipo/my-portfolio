@@ -4,17 +4,17 @@ import PageTitle from "../../components/page-title/PageTitle";
 import ContentHolder from "../../components/content-holder/ContentHolder";
 import Footer from "../../components/footer/footer";
 
-let resumeTitle = "Résumé";
+let oddsAndEndsTitle = "Odds & Ends";
 
-function Resume() {
+function OddsAndEnds() {
   return (
     <>
       <NavBar />
-      <PageTitle title={resumeTitle} />
+      <PageTitle title={oddsAndEndsTitle} />
       <ContentHolder />
       <Footer />
     </>
   );
 }
 
-export default Resume;
+export default OddsAndEnds;

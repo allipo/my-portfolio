@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "../../components/navigation/navigation";
 import Hero from "../../components/hero/hero";
 import Preview from "../../components/preview/preview";
+import Footer from "../../components/footer/footer";
 
 function Home() {
   const projectsArr = [
@@ -14,6 +15,7 @@ function Home() {
       <Navigation />
       <Preview projectName={projectsArr[0].name} style={projectsArr[0].style} />
       <Preview projectName={projectsArr[1].name} style={projectsArr[1].style} />
+      <Footer />
     </>
   );
 }
