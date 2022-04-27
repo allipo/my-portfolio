@@ -1,0 +1,14 @@
+#intro-container {
+    width: 50vw;
+    background-color: snow;
+    padding: 10px 50px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1000px) {
+    #intro-container {
+        width: 85vw;
+        padding: 10px;
+        margin: 10px 10px 30px 10px;
+    }
+}
