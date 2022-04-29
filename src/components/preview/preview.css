@@ -1,6 +1,6 @@
 .project-preview-container {
     height: 250px;
-    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     display: flex;
     align-items: center;
     padding: 30px;

@@ -8,7 +8,7 @@ function Footer() {
     <div id="footer-container">
       <div id="left-container">
         <Link to="/">
-          <div className="left-child" id="logo">
+          <div className="left-child" id="bottom-logo">
             AP
           </div>
         </Link>

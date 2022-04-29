@@ -13,8 +13,42 @@
 
 #logo {
     flex-grow: 1;
-    font-size: 3.2rem;
-    font-family:'Times New Roman', Times, serif;
-    padding-left: 5vw;
-    
+    width: 80px;
+    padding-left: 5vw; 
+} 
+
+#flyout-menu-icon {
+    display: none;
+}
+
+#flyout-menu {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    #nav-container {
+        display: block;
+    }
+
+    .nav-child {
+        display: none;
+    }
+
+    #logo {
+        width: 48px;
+    }
+
+    #flyout-menu-icon {
+        display: inline;
+        background-color: green;
+    }
+    #flyout-menu {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        background-color: pink;
+    }
 }

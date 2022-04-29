@@ -18,6 +18,7 @@ let detailedPreviewContent = [
     image: picture,
     skills: ["skill 1 blah blah", "skill 2", "skill 3"],
     tools: ["tool 1", "tool 2", "tool 3"],
+    linkTo: "/casestudy1",
   },
   {
     name: "Name of Study 2",
@@ -25,6 +26,7 @@ let detailedPreviewContent = [
     image: picture,
     skills: ["skill 1", "skill 2", "skill 3"],
     tools: ["tool 1", "tool 2", "tool 3"],
+    linkTo: "/casestudy2",
   },
   {
     name: "Name of Study 3",
@@ -32,6 +34,7 @@ let detailedPreviewContent = [
     image: picture,
     skills: ["skill 1", "skill 2", "skill 3"],
     tools: ["tool 1", "tool 2", "tool 3"],
+    linkTo: "/casestudy3",
   },
 ];
 
