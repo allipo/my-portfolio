@@ -37,12 +37,12 @@
     #logo {
         width: 48px;
     }
-
+ 
     #flyout-menu-icon {
         display: inline;
         background-color: green;
     }
-    #flyout-menu {
+    #open-menu {
         display: flex;
         flex-direction: column;
         width: 50vw;
@@ -50,5 +50,40 @@
         position: fixed;
         top: 0;
         background-color: pink;
+        animation-duration: 200ms;
+        animation-name: slidein;
+    }
+
+    @keyframes slidein {
+        from {
+          transform: translateX(-100%);
+        }
+      
+        to {
+          transform: translateX(0%);
+        }
+      }
+
+    #close-menu {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        transform: translateX(-100%);
+        background-color: pink;
+        animation-duration: 200ms;
+        animation-name: slideout;
+    }
+
+    @keyframes slideout {
+        from {
+            transform: translateX(0%);
+        }
+
+        to {
+            transform: translateX(-100%);
+        }
     }
 }

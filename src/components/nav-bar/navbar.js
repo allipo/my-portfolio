@@ -6,9 +6,13 @@ import { Link } from "react-router-dom";
 function NavBar() {
   const [viewFlyout, setViewFlyout] = useState(false);
 
-  if (viewFlyout) {
-    console.log("Viewing the flyout menu");
+  const [windowSize, setWindowSize] = useState(window.innerWidth);
+
+  function handleWindowResize() {
+    setWindowSize(window.innerWidth);
   }
+
+  window.addEventListener("resize", handleWindowResize);
 
   return (
     <>
@@ -30,6 +34,7 @@ function NavBar() {
         <Link to="/oddsandends">
           <div className="nav-child">Odds & Ends</div>
         </Link>
+
         <div
           id="flyout-menu-icon"
           onClick={() => {
@@ -39,8 +44,15 @@ function NavBar() {
           Flyout Menu
         </div>
       </div>
-      {viewFlyout && (
-        <div id="flyout-menu">
+      {windowSize < 1000 && (
+        <div id={viewFlyout ? "open-menu" : "close-menu"}>
+          <div
+            onClick={() => {
+              setViewFlyout(false);
+            }}
+          >
+            X
+          </div>
           <Link to="/">
             <div>Home</div>
           </Link>
