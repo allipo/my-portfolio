@@ -1,4 +1,130 @@
 .study-content-container {
     background-color: snow;
-    min-height: 50vh;
+    padding: 50px;
 }
+
+/*****************Case Study Title*****************/
+
+.study-label-holder {
+    font-size: 1.2rem;
+    padding-left: 20px;
+}
+
+.study-label {
+    margin: 0;
+}
+
+.study-name {
+    margin: 0;
+}
+
+.study-name-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    color: snow;
+    background-color: black;
+    padding: 30px 10px;
+}
+
+/*****************Hero*****************/
+
+.study-hero {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/*****************SubTitle*****************/
+
+.subtitle-container {
+    border-bottom: solid;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.subtitle {
+    margin: 0 0 0 30px;
+}
+
+/*****************Case Study Image Area*****************/
+
+.img-label {
+    margin: 0 0 0 20%;
+    font-size: 1.5rem;
+}
+
+.imgs-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 0px 20px;
+    height: 400px;
+    background-color: gray;
+    margin-bottom: 40px;
+}
+
+/*****************Line*****************/
+
+.line-area {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+
+.line-topic-holder {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.line-topic {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.line-content-holder {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.line-content {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+/*****************List*****************/
+
+.list-area {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+
+.list-topic-holder {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.list-topic {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.list-content-holder {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.list-item {
+    font-size: 1.3rem;
+}
+
