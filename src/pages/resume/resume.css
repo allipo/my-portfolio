@@ -1,0 +1,13 @@
+#resumeFrame {
+    
+
+}
+
+#resumeHolder {
+    display: flex;
+    justify-content: center;
+}
+
+#resumePic {
+    width: 80vw;
+}
