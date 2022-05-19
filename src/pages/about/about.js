@@ -14,7 +14,7 @@ function About() {
       <NavBar />
       <PageTitle title={aboutTitle} />
       <div className="gifArea">
-        <img src={waving} alt="myself waving" width="400" />
+        <img src={waving} alt="myself waving" width="600" />
       </div>
       <ContentHolder />
       <Footer />

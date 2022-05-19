@@ -50,7 +50,7 @@
 /*****************Case Study Image Area*****************/
 
 .img-label {
-    margin: 0 0 0 20%;
+    margin: 0 0 0 30px;
     font-size: 1.5rem;
 }
 
@@ -62,6 +62,11 @@
     height: 400px;
     background-color: gray;
     margin-bottom: 40px;
+}
+
+.image {
+    height: 300px;
+    margin: 0px 20px;
 }
 
 /*****************Line*****************/
@@ -76,7 +81,7 @@
     width: 20%;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .line-topic {
