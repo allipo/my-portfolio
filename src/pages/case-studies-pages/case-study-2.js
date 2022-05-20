@@ -29,6 +29,30 @@ import desktopMockup2 from "./study-2-assets/desktopMockup2.jpg";
 import desktopMockup3 from "./study-2-assets/desktopMockup3.jpg";
 import desktopMockup4 from "./study-2-assets/desktopMockup4.jpg";
 import desktopMockup5 from "./study-2-assets/desktopMockup5.jpg";
+import smallMockup1 from "./study-2-assets/smallMockup1.jpg";
+import smallMockup2 from "./study-2-assets/smallMockup2.jpg";
+import smallMockup3 from "./study-2-assets/smallMockup3.jpg";
+import smallMockup4 from "./study-2-assets/smallMockup4.jpg";
+import smallMockup5 from "./study-2-assets/smallMockup5.jpg";
+import smallMockup6 from "./study-2-assets/smallMockup6.jpg";
+import smallMockup7 from "./study-2-assets/smallMockup7.jpg";
+import smallMockup8 from "./study-2-assets/smallMockup8.jpg";
+import smallMockup9 from "./study-2-assets/smallMockup9.jpg";
+import smallMockup10 from "./study-2-assets/smallMockup10.jpg";
+import smallMockup11 from "./study-2-assets/smallMockup11.jpg";
+import smallMockup12 from "./study-2-assets/smallMockup12.jpg";
+import smallMockup13 from "./study-2-assets/smallMockup13.jpg";
+import smallMockup14 from "./study-2-assets/smallMockup14.jpg";
+import smallMockup15 from "./study-2-assets/smallMockup15.jpg";
+import smallMockup16 from "./study-2-assets/smallMockup16.jpg";
+import smallMockup17 from "./study-2-assets/smallMockup17.jpg";
+import hiFiPrototype from "./study-2-assets/highFiPrototype.jpg";
+import assetDisplay1 from "./study-2-assets/assetDisplay1.jpg";
+import assetDisplay2 from "./study-2-assets/assetDisplay2.jpg";
+import assetDisplay3 from "./study-2-assets/assetDisplay3.jpg";
+import assetDisplay4 from "./study-2-assets/assetDisplay4.jpg";
+import assetDisplay5 from "./study-2-assets/assetDisplay5.jpg";
+import assetDisplay6 from "./study-2-assets/assetDisplay6.svg";
 
 const responsibilities = ["User research", "UX design", "Testing"];
 const previewImages = [
@@ -84,6 +108,49 @@ const desktopMockupsArr = [
   { src: desktopMockup5, alt: "" },
 ];
 
+const smallMockupsArr = [
+  { src: smallMockup1, alt: "" },
+  { src: smallMockup2, alt: "" },
+  { src: smallMockup3, alt: "" },
+  { src: smallMockup4, alt: "" },
+  { src: smallMockup5, alt: "" },
+  { src: smallMockup6, alt: "" },
+  { src: smallMockup7, alt: "" },
+  { src: smallMockup8, alt: "" },
+  { src: smallMockup9, alt: "" },
+  { src: smallMockup10, alt: "" },
+  { src: smallMockup11, alt: "" },
+  { src: smallMockup12, alt: "" },
+  { src: smallMockup13, alt: "" },
+  { src: smallMockup14, alt: "" },
+  { src: smallMockup15, alt: "" },
+  { src: smallMockup16, alt: "" },
+  { src: smallMockup17, alt: "" },
+];
+
+const assetDisplayArr = [
+  { src: assetDisplay1, alt: "" },
+  { src: assetDisplay2, alt: "" },
+  { src: assetDisplay3, alt: "" },
+  { src: assetDisplay4, alt: "" },
+  { src: assetDisplay5, alt: "" },
+  { src: assetDisplay6, alt: "" },
+];
+
+const accessibilityArr = [
+  "1) Readability was verified with WebAIM contrast checker.",
+  "2) A clear hierarchy of elements and typography was established.",
+  "3) Text was tested and adjusted for optimum readability.",
+];
+
+const hiFiPrototypeArr = [{ src: hiFiPrototype, alt: "" }];
+
+const nextStepsArr = [
+  "Conduct another round of user testing.",
+  "Continue to update site content based on company needs.",
+  "Continue to implement accessibility considerations such as alt text.",
+];
+
 function CaseStudy2() {
   return (
     <>
@@ -111,7 +178,7 @@ function CaseStudy2() {
         <Subtitle subtitle="User Research" />
         <Line
           lineTopic="Summary:"
-          lineContent="Before ideating solutions, I interviewed dog owners about their experiences buying dog food. I found that many research participants were interested in ordering their dog food online to simplify the task, though found decisions regarding dog food overwhelming. A number of areas of potential improvement were discovered through the interviews."
+          lineContent="Before ideating solutions, I interviewed dog owners about their experiences buying dog food. I found that many research participants were interested in ordering their dog food online to simplify the task, though found decisions regarding dog food overwhelming. A number of areas of potential improvement were discovered through the interviews. I then conducted a competitive analysis of existing dog food ordering and dog food brand websites"
         />
         <List listTopic="Pain Points:" listContent={painPoints} />
         <StudyImage srcArr={personasArr} imgLabel="Personas" />
@@ -137,7 +204,20 @@ function CaseStudy2() {
         <List listTopic="Findings:" listContent={studyFindings} />
         {/* Refined Designs */}
         <Subtitle subtitle="Refining the Designs" />
+        <StudyImage srcArr={assetDisplayArr} imgLabel="Asset Creation" />
         <StudyImage srcArr={desktopMockupsArr} imgLabel="Mockups, Desktop" />
+        <StudyImage
+          srcArr={smallMockupsArr}
+          imgLabel="Mockups, Mobile and Tablet"
+        />
+        <StudyImage srcArr={hiFiPrototypeArr} imgLabel="Hi-Fi Prototype" />
+        <List listTopic="Accessibility:" listContent={accessibilityArr} />
+        <Subtitle subtitle="Takeaways" />
+        <Line
+          lineTopic="What I learned:"
+          lineContent="Throughout the process I learned how to display information in an easy-to-understand format and how to incorporate accessibility considerations in my designs."
+        />
+        <List listTopic="Next Steps:" listContent={nextStepsArr} />
       </div>
       <Footer />
     </>

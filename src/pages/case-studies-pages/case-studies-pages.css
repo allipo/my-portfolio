@@ -56,10 +56,10 @@
 
 .imgs-holder {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center; 
-    padding: 0px 20px;
-    height: 400px;
+    padding: 20px;
     background-color: gray;
     margin-bottom: 40px;
 }
