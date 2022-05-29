@@ -4,3 +4,12 @@
 
 a, a:hover, a:focus, a:active { text-decoration: none; color: inherit; }
 
+h1, h2, h3, h4 {
+  font-weight: normal;
+  margin: 0;
+  font-family: 'Philosopher', sans-serif;
+}
+
+
+
+ 

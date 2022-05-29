@@ -1,8 +1,8 @@
 #title-container {
     background-color: black;
     color: snow;
-    font-family: 'Philosopher', sans-serif;
-    font-size: 3rem;
+    /* font-family: 'Philosopher', sans-serif; */
+    /* font-size: 3rem; */
     display: flex; 
     justify-content: center;
     padding: 20px 0px 20px 0px;

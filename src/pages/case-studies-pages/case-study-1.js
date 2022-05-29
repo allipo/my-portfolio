@@ -8,8 +8,8 @@ import StudyImage from "./case-studies-components/case-study-image";
 import Line from "./case-studies-components/case-study-line";
 import List from "./case-studies-components/case-study-list";
 import Footer from "../../components/footer/footer";
+import nativePlantsHero from "./study-1-assets/nativePlantsHero.jpg";
 
-const studyTitle = "Name of Study 1";
 const heroSource = "";
 const heroAlt = "";
 const imgSrcArr = [
@@ -28,9 +28,9 @@ function CaseStudy1() {
     <>
       <NavBar />
       <div className="study-content-container">
-        <StudyTitle title={studyTitle} />
-        <StudyHero src={heroSource} alt={heroAlt} />
-        <Subtitle subtitle="Section Name" />
+        <StudyTitle title="Florish App and Website" />
+        <StudyHero src={nativePlantsHero} alt="" />
+        <Subtitle subtitle="Overview" />
         <StudyImage srcArr={imgSrcArr} imgLabel="Label for images" />
         <Line
           lineTopic="Topic:"
