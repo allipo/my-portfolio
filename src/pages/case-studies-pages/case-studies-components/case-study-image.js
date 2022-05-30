@@ -7,7 +7,7 @@ function StudyImage(props) {
       <h3 className="img-label">{props.imgLabel}</h3>
       <div className="imgs-holder">
         {props.srcArr.map((img) => {
-          return <img src={img.src} alt={img.alt} className="image" />;
+          return <img src={img.src} alt={img.alt} className={img.size} />;
         })}
       </div>
     </>

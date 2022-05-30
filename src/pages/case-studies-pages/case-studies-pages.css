@@ -6,7 +6,7 @@
 @media (max-width: 1000px) {
     .study-content-container {
         padding: 10px;
-    }
+    } 
 }
 
 /*****************Case Study Title*****************/
@@ -88,14 +88,35 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center; 
+    align-items: flex-start; 
     padding: 20px;
     background-color: gray;
     margin-bottom: 30px;
 }
 
-.image {
+/* .image {
     height: 300px;
+    margin: 5px;
+} */
+
+.desktop {
+    width: 350px;
+    margin: 5px;
+}
+.tablet {
+    width: 125px;
+    margin: 5px;
+}
+.mobile {
+    width: 60px;
+    margin: 5px;
+}
+.prototype {
+    width: 500px;
+    margin: 5px;
+}
+.asset {
+    width: 120px;
     margin: 5px;
 }
 

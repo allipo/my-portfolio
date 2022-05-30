@@ -29,6 +29,7 @@ import desktopMockup2 from "./study-2-assets/desktopMockup2.jpg";
 import desktopMockup3 from "./study-2-assets/desktopMockup3.jpg";
 import desktopMockup4 from "./study-2-assets/desktopMockup4.jpg";
 import desktopMockup5 from "./study-2-assets/desktopMockup5.jpg";
+import desktopMockup6 from "./study-2-assets/desktopMockup6.jpg";
 import smallMockup1 from "./study-2-assets/smallMockup1.jpg";
 import smallMockup2 from "./study-2-assets/smallMockup2.jpg";
 import smallMockup3 from "./study-2-assets/smallMockup3.jpg";
@@ -56,9 +57,9 @@ import assetDisplay6 from "./study-2-assets/assetDisplay6.svg";
 
 const responsibilities = ["User research", "UX design", "Testing"];
 const previewImages = [
-  { src: previewImage1, alt: "" },
-  { src: previewImage2, alt: "" },
-  { src: previewImage3, alt: "" },
+  { src: previewImage1, alt: "", size: "mobile" },
+  { src: previewImage2, alt: "", size: "desktop" },
+  { src: previewImage3, alt: "", size: "mobile" },
 ];
 const painPoints = [
   "1) Dog food brands don't always provide enough information about health and environmental concerns for users to feel confident.",
@@ -67,25 +68,25 @@ const painPoints = [
   "4) Not all dog food ordering sites have an option for recurring purchases.",
 ];
 const personasArr = [
-  { src: persona1, alt: "" },
-  { src: persona2, alt: "" },
+  { src: persona1, alt: "", size: "desktop" },
+  { src: persona2, alt: "", size: "desktop" },
 ];
 const journeyAndEmpathyMapsArr = [
-  { src: empathyMap, alt: "" },
-  { src: userJourney, alt: "" },
+  { src: empathyMap, alt: "", size: "desktop" },
+  { src: userJourney, alt: "", size: "desktop" },
 ];
-const siteMapArr = [{ src: siteMap, alt: "" }];
+const siteMapArr = [{ src: siteMap, alt: "", size: "desktop" }];
 
 const digitalWireframesArr = [
-  { src: digitalWireframe1, alt: "" },
-  { src: digitalWireframe2, alt: "" },
-  { src: digitalWireframe3, alt: "" },
-  { src: digitalWireframe4, alt: "" },
-  { src: digitalWireframe5, alt: "" },
-  { src: digitalWireframe6, alt: "" },
+  { src: digitalWireframe1, alt: "", size: "desktop" },
+  { src: digitalWireframe2, alt: "", size: "tablet" },
+  { src: digitalWireframe3, alt: "", size: "mobile" },
+  { src: digitalWireframe4, alt: "", size: "desktop" },
+  { src: digitalWireframe5, alt: "", size: "tablet" },
+  { src: digitalWireframe6, alt: "", size: "mobile" },
 ];
 
-const lowFiPrototypeArr = [{ src: lowFiPrototype, alt: "" }];
+const lowFiPrototypeArr = [{ src: lowFiPrototype, alt: "", size: "prototype" }];
 
 const usabilityStudyParams = [
   "Type - Moderated usability study",
@@ -101,40 +102,41 @@ const studyFindings = [
 ];
 
 const desktopMockupsArr = [
-  { src: desktopMockup1, alt: "" },
-  { src: desktopMockup2, alt: "" },
-  { src: desktopMockup3, alt: "" },
-  { src: desktopMockup4, alt: "" },
-  { src: desktopMockup5, alt: "" },
+  { src: desktopMockup6, alt: "", size: "desktop" },
+  { src: desktopMockup2, alt: "", size: "desktop" },
+  { src: desktopMockup5, alt: "", size: "desktop" },
+  { src: desktopMockup1, alt: "", size: "desktop" },
+  { src: desktopMockup3, alt: "", size: "desktop" },
+  { src: desktopMockup4, alt: "", size: "desktop" },
 ];
 
 const smallMockupsArr = [
-  { src: smallMockup1, alt: "" },
-  { src: smallMockup2, alt: "" },
-  { src: smallMockup3, alt: "" },
-  { src: smallMockup4, alt: "" },
-  { src: smallMockup5, alt: "" },
-  { src: smallMockup6, alt: "" },
-  { src: smallMockup7, alt: "" },
-  { src: smallMockup8, alt: "" },
-  { src: smallMockup9, alt: "" },
-  { src: smallMockup10, alt: "" },
-  { src: smallMockup11, alt: "" },
-  { src: smallMockup12, alt: "" },
-  { src: smallMockup13, alt: "" },
-  { src: smallMockup14, alt: "" },
-  { src: smallMockup15, alt: "" },
-  { src: smallMockup16, alt: "" },
-  { src: smallMockup17, alt: "" },
+  { src: smallMockup1, alt: "", size: "mobile" },
+  { src: smallMockup2, alt: "", size: "tablet" },
+  { src: smallMockup3, alt: "", size: "mobile" },
+  { src: smallMockup4, alt: "", size: "mobile" },
+  { src: smallMockup5, alt: "", size: "tablet" },
+  { src: smallMockup6, alt: "", size: "mobile" },
+  { src: smallMockup7, alt: "", size: "tablet" },
+  { src: smallMockup8, alt: "", size: "mobile" },
+  { src: smallMockup9, alt: "", size: "tablet" },
+  { src: smallMockup10, alt: "", size: "mobile" },
+  { src: smallMockup11, alt: "", size: "tablet" },
+  { src: smallMockup12, alt: "", size: "mobile" },
+  { src: smallMockup13, alt: "", size: "tablet" },
+  { src: smallMockup14, alt: "", size: "mobile" },
+  { src: smallMockup15, alt: "", size: "tablet" },
+  { src: smallMockup16, alt: "", size: "mobile" },
+  { src: smallMockup17, alt: "", size: "tablet" },
 ];
 
 const assetDisplayArr = [
-  { src: assetDisplay1, alt: "" },
-  { src: assetDisplay2, alt: "" },
-  { src: assetDisplay3, alt: "" },
-  { src: assetDisplay4, alt: "" },
-  { src: assetDisplay5, alt: "" },
-  { src: assetDisplay6, alt: "" },
+  { src: assetDisplay6, alt: "", size: "asset" },
+  { src: assetDisplay1, alt: "", size: "tablet" },
+  { src: assetDisplay2, alt: "", size: "tablet" },
+  { src: assetDisplay3, alt: "", size: "tablet" },
+  { src: assetDisplay4, alt: "", size: "asset" },
+  { src: assetDisplay5, alt: "", size: "asset" },
 ];
 
 const accessibilityArr = [
@@ -143,7 +145,7 @@ const accessibilityArr = [
   "3) Text was tested and adjusted for optimum readability.",
 ];
 
-const hiFiPrototypeArr = [{ src: hiFiPrototype, alt: "" }];
+const hiFiPrototypeArr = [{ src: hiFiPrototype, alt: "", size: "prototype" }];
 
 const nextStepsArr = [
   "Conduct another round of user testing.",
@@ -212,6 +214,7 @@ function CaseStudy2() {
         />
         <StudyImage srcArr={hiFiPrototypeArr} imgLabel="Hi-Fi Prototype" />
         <List listTopic="Accessibility:" listContent={accessibilityArr} />
+        {/* Takeaways */}
         <Subtitle subtitle="Takeaways" />
         <Line
           lineTopic="What I learned:"
