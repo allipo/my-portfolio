@@ -61,9 +61,9 @@ const previewImages = [
   { src: previewImage3, alt: "" },
 ];
 const painPoints = [
-  "1) Dog food brands don’t always provide enough information about health and environmental concerns for users to feel confident.",
+  "1) Dog food brands don't always provide enough information about health and environmental concerns for users to feel confident.",
   "2) Going to the pet supply store takes a lot of time and bags of dog food are heavy to carry home.",
-  "3) Dog food websites don’t always have customization of recommendations based on the individual needs of a dog or its owner.",
+  "3) Dog food websites don't always have customization of recommendations based on the individual needs of a dog or its owner.",
   "4) Not all dog food ordering sites have an option for recurring purchases.",
 ];
 const personasArr = [

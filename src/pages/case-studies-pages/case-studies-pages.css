@@ -3,6 +3,12 @@
     padding: 50px;
 }
 
+@media (max-width: 1000px) {
+    .study-content-container {
+        padding: 10px;
+    }
+}
+
 /*****************Case Study Title*****************/
 
 .study-label-holder {
@@ -28,11 +34,26 @@
     padding: 30px 10px;
 }
 
+@media (max-width: 1000px) {
+    .study-label-holder {
+        padding-left: 10px;
+    }
+    .study-name-holder {
+        padding: 15px 10px;
+    }
+}
+
 /*****************Hero*****************/
 
 .study-hero {
     width: 100%;
     margin-bottom: 30px;
+}
+
+@media (max-width: 1000px) {
+    .study-hero {
+        margin-bottom: 10px;
+    }
 }
 
 /*****************SubTitle*****************/
@@ -45,6 +66,15 @@
 
 .subtitle {
     margin: 0 0 0 30px;
+}
+
+@media (max-width: 1000px) {
+    .subtitle-container {
+        margin-bottom: 10px;
+    }
+    .subtitle {
+        margin: 0 0 0 10px;
+    }
 }
 
 /*****************Case Study Image Area*****************/
@@ -61,14 +91,23 @@
     align-items: center; 
     padding: 20px;
     background-color: gray;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .image {
     height: 300px;
-    margin: 0px 5px;
+    margin: 5px;
 }
 
+@media (max-width: 1000px) {
+    .img-label {
+        margin: 0 0 0 10px;
+    }
+    .imgs-holder {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+}
 /*****************Line*****************/
 
 .line-area {
@@ -102,6 +141,15 @@
     margin: 0;
 }
 
+@media (max-width: 1000px) {
+    .line-area {
+        margin-bottom: 10px;
+    }
+    .line-content-holder {
+        padding-left: 15px;
+    }
+}
+
 /*****************List*****************/
 
 .list-area {
@@ -131,5 +179,14 @@
 
 .list-item {
     font-size: 1.3rem;
+}
+
+@media (max-width: 1000px) {
+    .list-area {
+        margin-bottom: 10px;
+    }
+    .list-content-holder {
+        padding-left: 15px;
+    }
 }
 
