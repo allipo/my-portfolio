@@ -3,6 +3,7 @@ import NavBar from "../../components/nav-bar/navbar";
 import PageTitle from "../../components/page-title/PageTitle";
 import ContentHolder from "../../components/content-holder/ContentHolder";
 import Footer from "../../components/footer/footer";
+import GoToTop from "../../components/go-to-top/goToTop";
 import resume from "./resume2022.pdf";
 import resumePic from "./resume2022.jpg";
 import "./resume.css";
@@ -20,6 +21,7 @@ function Resume() {
       <iframe src={resume} title="resume pdf" id="resumeFrame" />
       <ContentHolder />
       <Footer />
+      <GoToTop />
     </>
   );
 }

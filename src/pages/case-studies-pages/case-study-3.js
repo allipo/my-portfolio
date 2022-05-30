@@ -8,6 +8,7 @@ import StudyImage from "./case-studies-components/case-study-image";
 import Line from "./case-studies-components/case-study-line";
 import List from "./case-studies-components/case-study-list";
 import Footer from "../../components/footer/footer";
+import GoToTop from "../../components/go-to-top/goToTop";
 import heroImage from "./study-3-assets/floristAppHero.jpg";
 import persona1 from "./study-3-assets/persona1.jpg";
 import persona2 from "./study-3-assets/persona2.jpg";
@@ -175,6 +176,7 @@ function CaseStudy3() {
         <List listTopic="Next Steps:" listContent={nextStepsArr} />
       </div>
       <Footer />
+      <GoToTop />
     </>
   );
 }

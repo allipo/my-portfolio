@@ -4,6 +4,7 @@ import PageTitle from "../../components/page-title/PageTitle";
 import ContentIntro from "../../components/content-intro/contentintro";
 import DetailedPreview from "../../components/detailed-preview/detailedpreview";
 import Footer from "../../components/footer/footer";
+import GoToTop from "../../components/go-to-top/goToTop";
 import "./casestudies.css";
 import florishPic from "./florishAppPreview.png";
 import ecopupPic from "./ecopupPreview.png";
@@ -75,6 +76,7 @@ function CaseStudies() {
         <DetailedPreview content={detailedPreviewContent} />
       </div>
       <Footer />
+      <GoToTop />
     </>
   );
 }

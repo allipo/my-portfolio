@@ -5,11 +5,12 @@ import PageTitle from "../../components/page-title/PageTitle";
 import ContentIntro from "../../components/content-intro/contentintro";
 import DetailedPreview from "../../components/detailed-preview/detailedpreview";
 import Footer from "../../components/footer/footer";
+import GoToTop from "../../components/go-to-top/goToTop";
 import picture from "../case-studies-pages/study-1-assets/crazyEights.jpg";
 
 let oddsAndEndsTitle = "Odds & Ends";
 let introText =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+  "Here are various projects and tidbits that I've worked on in my free time to broaden my skill set. They involve fields adjacent to UX, including illustration, design, and programming.";
 
 let detailedPreviewContent = [
   {
@@ -45,6 +46,7 @@ function OddsAndEnds() {
         <DetailedPreview content={detailedPreviewContent} />
       </div>
       <Footer />
+      <GoToTop />
     </>
   );
 }

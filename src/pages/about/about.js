@@ -3,6 +3,7 @@ import NavBar from "../../components/nav-bar/navbar";
 import PageTitle from "../../components/page-title/PageTitle";
 import ContentHolder from "../../components/content-holder/ContentHolder";
 import Footer from "../../components/footer/footer";
+import GoToTop from "../../components/go-to-top/goToTop";
 import waving from "./waving.gif";
 import "./about.css";
 
@@ -18,6 +19,7 @@ function About() {
       </div>
       <ContentHolder />
       <Footer />
+      <GoToTop />
     </>
   );
 }

@@ -6,7 +6,9 @@ function Preview(props) {
   return (
     <div className={`${props.style} project-preview-container`}>
       <h3>{projectName}</h3>
-      <div>Picture</div>
+      <div className="pic-container">
+        <img src={props.pic} alt="" />
+      </div>
     </div>
   );
 }

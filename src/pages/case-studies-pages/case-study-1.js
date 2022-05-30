@@ -8,6 +8,7 @@ import StudyImage from "./case-studies-components/case-study-image";
 import Line from "./case-studies-components/case-study-line";
 import List from "./case-studies-components/case-study-list";
 import Footer from "../../components/footer/footer";
+import GoToTop from "../../components/go-to-top/goToTop";
 import nativePlantsHero from "./study-1-assets/nativePlantsHero.jpg";
 import persona1 from "./study-1-assets/persona1.jpg";
 import persona2 from "./study-1-assets/persona2.jpg";
@@ -73,12 +74,12 @@ const studyFindings = [
   "3) Users wanted to know a wide variety of specifics about each plant and to be able to search by those specifics.",
 ];
 const appMockupsArr = [
-  { src: mockupApp1, alt: "", size: "mobile" },
-  { src: mockupApp2, alt: "", size: "mobile" },
-  { src: mockupApp3, alt: "", size: "mobile" },
-  { src: mockupApp4, alt: "", size: "mobile" },
-  { src: mockupApp5, alt: "", size: "mobile" },
-  { src: mockupApp6, alt: "", size: "mobile" },
+  { src: mockupApp1, alt: "", size: "tablet" },
+  { src: mockupApp2, alt: "", size: "tablet" },
+  { src: mockupApp3, alt: "", size: "tablet" },
+  { src: mockupApp4, alt: "", size: "tablet" },
+  { src: mockupApp5, alt: "", size: "tablet" },
+  { src: mockupApp6, alt: "", size: "tablet" },
   { src: mockupApp7, alt: "", size: "mobile" },
 ];
 const hiFiPrototypeAppArr = [
@@ -96,11 +97,11 @@ const lowFiPrototypeWebArr = [
   { src: lowFiPrototypeWeb, alt: "", size: "prototype" },
 ];
 const webMobileMockupsArr = [
-  { src: mockupWeb1, alt: "", size: "mobile" },
-  { src: mockupWeb2, alt: "", size: "mobile" },
-  { src: mockupWeb3, alt: "", size: "mobile" },
-  { src: mockupWeb4, alt: "", size: "mobile" },
-  { src: mockupWeb5, alt: "", size: "mobile" },
+  { src: mockupWeb1, alt: "", size: "tablet" },
+  { src: mockupWeb2, alt: "", size: "tablet" },
+  { src: mockupWeb3, alt: "", size: "tablet" },
+  { src: mockupWeb4, alt: "", size: "tablet" },
+  { src: mockupWeb5, alt: "", size: "tablet" },
 ];
 const mockupsLargerScreensWebArr = [
   { src: mockupsLargerScreensWeb, alt: "", size: "prototype" },
@@ -213,6 +214,7 @@ function CaseStudy1() {
         <List listTopic="Next Steps:" listContent={nextStepsArr} />
       </div>
       <Footer />
+      <GoToTop />
     </>
   );
 }
