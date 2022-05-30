@@ -5,7 +5,7 @@ import PageTitle from "../../components/page-title/PageTitle";
 import ContentIntro from "../../components/content-intro/contentintro";
 import DetailedPreview from "../../components/detailed-preview/detailedpreview";
 import Footer from "../../components/footer/footer";
-import picture from "../../components/detailed-preview/exampleImage.png";
+import picture from "../case-studies-pages/study-1-assets/crazyEights.jpg";
 
 let oddsAndEndsTitle = "Odds & Ends";
 let introText =

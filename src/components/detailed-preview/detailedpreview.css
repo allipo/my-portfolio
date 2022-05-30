@@ -20,7 +20,7 @@
 }
 
 #image-holder {
-    width: 400px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -28,8 +28,8 @@
 }
 
 #image-holder > img {
-    max-width: 350px;
-    max-height: 200px;
+    max-width: 450px;
+    max-height: 300px;
 }
 
 #text-holder {

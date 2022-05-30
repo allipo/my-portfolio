@@ -42,10 +42,10 @@ const personasArr = [
   { src: persona2, alt: "", size: "desktop" },
 ];
 const painPointsArr = [
-  "Predicting demand is difficult, leading to inefficiencies.",
-  "Lack of sales reports causing ordering mistakes to sometimes go uncorrected.",
-  "Workers find inventory counting tedious and uninteresting.",
-  "Tech solutions percieved as complicated and unfriendly.",
+  "1) Predicting demand is difficult, leading to inefficiencies.",
+  "2) Lack of sales reports causing ordering mistakes to sometimes go uncorrected.",
+  "3) Workers find inventory counting tedious and uninteresting.",
+  "4) Tech solutions percieved as complicated and unfriendly.",
 ];
 const userJourneyMapArr = [{ src: userJourneyMap, alt: "", size: "desktop" }];
 const storyboardArr = [
@@ -68,7 +68,9 @@ const studyFindings = [
   "2) Some users are unfamiliar with POS terminology.",
   "3) Users need to be warned before data is lost if they go back during input process.",
 ];
-const affinityDiagramArr = [{ src: affinityDiagram, alt: "", size: "desktop" }];
+const affinityDiagramArr = [
+  { src: affinityDiagram, alt: "", size: "prototype" },
+];
 const stickerSheetArr = [{ src: stickerSheet, alt: "", size: "desktop" }];
 const mockupsArr = [
   { src: mockup1, alt: "", size: "tablet" },
@@ -164,7 +166,7 @@ function CaseStudy3() {
         <Subtitle subtitle="Takeaways" />
         <Line
           lineTopic="Impact:"
-          lineContent="“It was easy to find the inventory and the 'add' button. I also really liked the different methods for adding items - taking a photo of the receipt is a good idea. -Study Participant"
+          lineContent='"It was easy to find the inventory and the add button. I also really liked the different methods for adding items - taking a photo of the receipt is a good idea." -Study Participant'
         />
         <Line
           lineTopic="What I Learned:"

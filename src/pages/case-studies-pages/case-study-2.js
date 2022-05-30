@@ -9,9 +9,6 @@ import Line from "./case-studies-components/case-study-line";
 import List from "./case-studies-components/case-study-list";
 import Footer from "../../components/footer/footer";
 import heroImage from "./study-2-assets/dog_hero.jpg";
-import previewImage1 from "./study-2-assets/previewImage1Test.jpg";
-import previewImage2 from "./study-2-assets/previewImage2Test.jpg";
-import previewImage3 from "./study-2-assets/previewImage3Test.jpg";
 import persona1 from "./study-2-assets/persona1.jpg";
 import persona2 from "./study-2-assets/persona2.jpg";
 import empathyMap from "./study-2-assets/empathyMap1.jpg";
@@ -56,11 +53,7 @@ import assetDisplay5 from "./study-2-assets/assetDisplay5.jpg";
 import assetDisplay6 from "./study-2-assets/assetDisplay6.svg";
 
 const responsibilities = ["User research", "UX design", "Testing"];
-const previewImages = [
-  { src: previewImage1, alt: "", size: "mobile" },
-  { src: previewImage2, alt: "", size: "desktop" },
-  { src: previewImage3, alt: "", size: "mobile" },
-];
+
 const painPoints = [
   "1) Dog food brands don't always provide enough information about health and environmental concerns for users to feel confident.",
   "2) Going to the pet supply store takes a lot of time and bags of dog food are heavy to carry home.",
@@ -175,7 +168,6 @@ function CaseStudy2() {
           lineContent="I tried to make an online experience to satisfy user needs, so that they can get information about dog food options and order dog food all in one place."
         />
         <List listTopic="Responsibilites:" listContent={responsibilities} />
-        <StudyImage srcArr={previewImages} imgLabel="Preview" />
         {/* User Research */}
         <Subtitle subtitle="User Research" />
         <Line

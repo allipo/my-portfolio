@@ -12,7 +12,7 @@ function DetailedPreview(props) {
               <div id="preview-container">
                 <div id="name-container">
                   <h2>{study.name}</h2>
-                  <h3>{study.description}</h3>
+                  <p>{study.description}</p>
                 </div>
                 <div id="content-holder">
                   <div id="image-holder">
