@@ -5,20 +5,20 @@ import Artwork from "../../components/artwork/artwork";
 // import Preview from "../../components/preview/preview";
 import Footer from "../../components/footer/footer";
 import GoToTop from "../../components/go-to-top/goToTop";
-import project1Pic from "../case-studies/florishAppPreview.png";
-import project2Pic from "../case-studies/ecopupPreview.png";
-import project3Pic from "../case-studies/floristPreview.png";
+// import project1Pic from "../case-studies/florishAppPreview.png";
+// import project2Pic from "../case-studies/ecopupPreview.png";
+// import project3Pic from "../case-studies/floristPreview.png";
 
 function Home() {
-  const projectsArr = [
-    { name: "Florish App and Website", style: "left", picture: project1Pic },
-    { name: "EcoPup Responsive Website", style: "right", picture: project2Pic },
-    {
-      name: "Inventory Management App for Florists",
-      style: "left",
-      picture: project3Pic,
-    },
-  ];
+  // const projectsArr = [
+  //   { name: "Florish App and Website", style: "left", picture: project1Pic },
+  //   { name: "EcoPup Responsive Website", style: "right", picture: project2Pic },
+  //   {
+  //     name: "Inventory Management App for Florists",
+  //     style: "left",
+  //     picture: project3Pic,
+  //   },
+  // ];
 
   let pageTitle = "ALLISON PESTOTNIK, UX DESIGNER";
 
