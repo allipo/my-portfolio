@@ -71,7 +71,7 @@ function CaseStudies() {
     <>
       <NavBar />
       <PageTitle title={caseStudiesTitle} />
-      <div className="main-content-container">
+      <div className="silly-content-container">
         <ContentIntro introText={introText} />
         <DetailedPreview content={detailedPreviewContent} />
       </div>

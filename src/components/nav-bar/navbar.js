@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import logo from "../../components/logo/logo.svg";
+import menuIcon from "./hamburgerMenu.png";
 import { Link } from "react-router-dom";
 
 function NavBar() {
@@ -35,14 +36,15 @@ function NavBar() {
           <div className="nav-child">Odds & Ends</div>
         </Link>
 
-        <div
+        <img
+          src={menuIcon}
+          height="36px"
+          alt="flyout menu icon"
           id="flyout-menu-icon"
           onClick={() => {
             setViewFlyout(true);
           }}
-        >
-          Flyout Menu
-        </div>
+        />
       </div>
       {windowSize < 1000 && (
         <div id={viewFlyout ? "open-menu" : "close-menu"}>

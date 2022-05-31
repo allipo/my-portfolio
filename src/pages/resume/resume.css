@@ -1,13 +1,29 @@
+#resume-page-body {
+    display: flex;
+    justify-content: center;
+    background-color: snow;
+}
+
 #resumeFrame {
-    
+    width: 80%;
+    height: 1100px;
 
 }
 
-#resumeHolder {
+@media (max-width: 1000px) {
+    #resumeFrame {
+        height: 500px;
+        width: 100%;
+    }
+}
+
+
+
+/* #resumeHolder {
     display: flex;
     justify-content: center;
 }
 
 #resumePic {
     width: 80vw;
-}
+}  */

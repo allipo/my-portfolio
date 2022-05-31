@@ -2,6 +2,7 @@
     width: 90vw;
     background-color: snow;
     color: black;
+    border-radius: 3px;
 }
 
 #name-container {
@@ -13,9 +14,9 @@
 }
 
 #content-holder {
-    width: 90vw;
-    justify-content: center;
+    padding: 20px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -41,19 +42,27 @@
     padding: 0px 30px;
 }
 
-ul, li { margin-left: 0; padding-left: 0; }
+ul, li { 
+    margin-left: 0; 
+    padding-left: 0; 
+}
 
 hr {
-    margin: 0;
+    margin: 0; 
 }
 
 @media (max-width: 1000px) {
+
     #name-container {
-        padding: 10px;
+        padding: 30px;
     }
 
     #name-container > h2 {
         padding-right: 0px;
+    }
+
+    #content-holder {
+        justify-content: flex-start;
     }
 
     #image-holder {
@@ -71,6 +80,5 @@ hr {
 
     .text-area {
         padding: 0px 20px;
-    }
-   
+    }  
 }

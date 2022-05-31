@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import { ReactComponent as LinkedIn } from "./linkedin.svg";
 import { Link } from "react-router-dom";
+import logoSnow from "../logo/logo-snow.svg";
 
 function Footer() {
   return (
@@ -9,7 +10,7 @@ function Footer() {
       <div id="left-container">
         <Link to="/">
           <div className="left-child" id="bottom-logo">
-            AP
+            <img src={logoSnow} width="64px" alt="AP logo" />
           </div>
         </Link>
         <div className="left-child">Allison Pestotnik</div>

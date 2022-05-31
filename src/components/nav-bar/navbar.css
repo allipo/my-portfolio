@@ -14,7 +14,8 @@
 #logo {
     flex-grow: 1;
     width: 80px;
-    padding-left: 5vw; 
+    padding-left: 5vw;
+    padding-top: 10px;
 } 
 
 #flyout-menu-icon {
@@ -28,6 +29,7 @@
 @media (max-width: 1000px) {
     #nav-container {
         display: block;
+        height: 48px;
     }
 
     .nav-child {
@@ -36,11 +38,16 @@
 
     #logo {
         width: 48px;
+        padding-top: 5px;
+        padding-right: 10px;
+        float: right;
     }
  
     #flyout-menu-icon {
         display: inline;
-        background-color: green;
+        padding-top: 5px;
+        padding-left: 10px;
+        cursor: pointer;
     }
     #open-menu {
         display: flex;
