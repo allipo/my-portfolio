@@ -53,12 +53,18 @@ import assetDisplay4 from "./study-2-assets/assetDisplay4.jpg";
 import assetDisplay5 from "./study-2-assets/assetDisplay5.jpg";
 import assetDisplay6 from "./study-2-assets/assetDisplay6.svg";
 
-const responsibilities = ["User research", "UX design", "Testing"];
+const responsibilities = [
+  "User Research",
+  "Wireframing",
+  "Illustration",
+  "Prototyping",
+  "Usability Testing",
+];
 
 const painPoints = [
   "1) Dog food brands don't always provide enough information about health and environmental concerns for users to feel confident.",
   "2) Going to the pet supply store takes a lot of time and bags of dog food are heavy to carry home.",
-  "3) Dog food websites don't always have customization of recommendations based on the individual needs of a dog or its owner.",
+  "3) Dog food websites don't usually offer customization of recommendations based on the individual needs of a dog or its owner.",
   "4) Not all dog food ordering sites have an option for recurring purchases.",
 ];
 const personasArr = [
@@ -136,15 +142,16 @@ const assetDisplayArr = [
 const accessibilityArr = [
   "1) Readability was verified with WebAIM contrast checker.",
   "2) A clear hierarchy of elements and typography was established.",
-  "3) Text was tested and adjusted for optimum readability.",
+  "3) Action buttons were marked with bright green color.",
+  "3) A progress bar was added to purchasing flow to help users not get lost.",
 ];
 
 const hiFiPrototypeArr = [{ src: hiFiPrototype, alt: "", size: "prototype" }];
 
 const nextStepsArr = [
-  "Conduct another round of user testing.",
-  "Continue to update site content based on company needs.",
-  "Continue to implement accessibility considerations such as alt text.",
+  "1) Conduct another round of user testing.",
+  "2) Continue to update site content based on company needs.",
+  "3) Continue to implement accessibility considerations such as alt text.",
 ];
 
 function CaseStudy2() {
@@ -158,22 +165,22 @@ function CaseStudy2() {
         <Subtitle subtitle="Overview" />
         <Line
           lineTopic="Product:"
-          lineContent="A responsive website for an organic dog food brand to let users select and order dog food"
+          lineContent="A responsive website for an organic dog food brand to let users select and order dog food online."
         />
         <Line
           lineTopic="Problem:"
-          lineContent="Users need an easy way to find out more about dog food and order it without having to make tedious trips to the pet supply store."
+          lineContent="Users need an easy way to find out more about the value proposition of EcoPup dog food and order it without having to make tedious trips to the pet supply store."
         />
         <Line
           lineTopic="Goal:"
-          lineContent="I tried to make an online experience to satisfy user needs, so that they can get information about dog food options and order dog food all in one place."
+          lineContent="To make an online experience to satisfy needs for greater confidence and convenience in dog food purchasing, letting users get information and order dog food all in one place."
         />
         <List listTopic="Responsibilites:" listContent={responsibilities} />
         {/* User Research */}
         <Subtitle subtitle="User Research" />
         <Line
           lineTopic="Summary:"
-          lineContent="Before ideating solutions, I interviewed dog owners about their experiences buying dog food. I found that many research participants were interested in ordering their dog food online to simplify the task, though found decisions regarding dog food overwhelming. A number of areas of potential improvement were discovered through the interviews. I then conducted a competitive analysis of existing dog food ordering and dog food brand websites"
+          lineContent="Before ideating solutions, I interviewed dog owners about their experiences buying dog food. I found that many research participants were interested in ordering dog food online to simplify the task and found decisions regarding dog food overwhelming. A number of areas of potential improvement were discovered. I also conducted a competitive analysis of existing dog food ordering and dog food brand websites."
         />
         <List listTopic="Pain Points:" listContent={painPoints} />
         <StudyImage srcArr={personasArr} imgLabel="Personas" />
@@ -183,35 +190,38 @@ function CaseStudy2() {
         />
         <StudyImage
           srcArr={journeyAndEmpathyMapsArr}
-          imgLabel="Empathy Map, User Journey"
+          imgLabel="Empathy map and user journey map"
         />
         {/* Early Designs */}
         <Subtitle subtitle="Early Designs" />
-        <StudyImage srcArr={siteMapArr} imgLabel="Site Map" />
+        <StudyImage srcArr={siteMapArr} imgLabel="Site map" />
         <StudyImage
           srcArr={digitalWireframesArr}
-          imgLabel="Digital Wireframes"
+          imgLabel="Sample digital wireframes created in Adobe XD"
         />
-        <StudyImage srcArr={lowFiPrototypeArr} imgLabel="Low-Fi Prototype" />
+        <StudyImage srcArr={lowFiPrototypeArr} imgLabel="Low-Fi prototype" />
         {/* Usability Study */}
         <Subtitle subtitle="Usability Study" />
         <List listTopic="Parameters:" listContent={usabilityStudyParams} />
         <List listTopic="Findings:" listContent={studyFindings} />
         {/* Refined Designs */}
         <Subtitle subtitle="Refining the Designs" />
-        <StudyImage srcArr={assetDisplayArr} imgLabel="Asset Creation" />
-        <StudyImage srcArr={desktopMockupsArr} imgLabel="Mockups, Desktop" />
+        <StudyImage
+          srcArr={assetDisplayArr}
+          imgLabel="Creating assets in Adobe Illustrator and Adobe Fresco"
+        />
+        <StudyImage srcArr={desktopMockupsArr} imgLabel="Mockups for desktop" />
         <StudyImage
           srcArr={smallMockupsArr}
-          imgLabel="Mockups, Mobile and Tablet"
+          imgLabel="Sample mockups for mobile and tablet"
         />
-        <StudyImage srcArr={hiFiPrototypeArr} imgLabel="Hi-Fi Prototype" />
+        <StudyImage srcArr={hiFiPrototypeArr} imgLabel="Hi-fi prototype" />
         <List listTopic="Accessibility:" listContent={accessibilityArr} />
         {/* Takeaways */}
         <Subtitle subtitle="Takeaways" />
         <Line
           lineTopic="What I learned:"
-          lineContent="Throughout the process I learned how to display information in an easy-to-understand format and how to incorporate accessibility considerations in my designs."
+          lineContent="Throughout the process I learned how to design with a desktop-first approach, how to display information in an easy-to-digest format, and how to incorporate accessibility considerations in my designs."
         />
         <List listTopic="Next Steps:" listContent={nextStepsArr} />
       </div>

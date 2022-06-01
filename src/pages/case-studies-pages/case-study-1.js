@@ -86,10 +86,10 @@ const hiFiPrototypeAppArr = [
   { src: hiFiPrototypeApp, alt: "", size: "prototype" },
 ];
 const accessibilityArr = [
-  "1) All text-background combinations were tested against WebAIM standards.",
-  "2) Simple san-serif font was chosen for readability on screens.",
+  "1) All text-background combinations were tested with WebAIM contrast checker.",
+  "2) A simple san-serif font was chosen for maximum readability on screens.",
   "3) Button colors were simplified to contribute to a more uniform user flow.",
-  "4) Search function was simplified for a more intuitive user flow",
+  "4) Search options on home screen were simplified to reduce confusion",
 ];
 const siteMapArr = [{ src: siteMap, alt: "", size: "desktop" }];
 const wireframesWebArr = [{ src: wireframesWeb, alt: "", size: "prototype" }];
@@ -112,7 +112,7 @@ const hiFiPrototypeWebArr = [
 const nextStepsArr = [
   "1) Design additional pages such as app settings and website blog posts.",
   "2) Further test the website with users of different assistive technologies.",
-  "3) Conduct post-launch research with users.",
+  "3) Conduct post-launch research.",
 ];
 
 function CaseStudy1() {
@@ -126,15 +126,15 @@ function CaseStudy1() {
         <Subtitle subtitle="Overview" />
         <Line
           lineTopic="Product:"
-          lineContent="An app and complementary website to help homeowners find information about gardening with plants native to their area"
+          lineContent="An app and complementary website to help homeowners find native plants to grow in their yards."
         />
         <Line
           lineTopic="Problem:"
-          lineContent="As the world faces a biodiversity crisis, yards and gardens remain highly underutilized in providing habitat for plants and animals, largely due to a lack of native species. Lawn upkeep further harms the environment from excessive use of water, pesticides, and mowers."
+          lineContent="As the world faces a biodiversity crisis, yards and gardens remain underutilized spaces for habitat protection due to a lack of native species. Lawn upkeep further harms the environment from excessive use of water, pesticides, and mowers."
         />
         <Line
           lineTopic="Goal:"
-          lineContent="The aim of the Florish app and website is to help people discover plants native to their area to plant in their green spaces. An increased share of native plants would help the environment by replenishing habitat; supporting pollinators; and reducing the use of water, pesticides, and mowers."
+          lineContent="The aim of the Florish app and website is to help people discover plants native to their area to plant in their green spaces. An increased share of native plants helps the environment by replenishing habitat; supporting pollinators; and reducing the use of water, pesticides, and mowers."
         />
         <List listTopic="Responsibilites:" listContent={responsibilitiesArr} />
         {/* User Research */}
@@ -146,20 +146,20 @@ function CaseStudy1() {
         <StudyImage srcArr={personasArr} imgLabel="Personas" />
         <Line
           lineTopic="Problem Statement:"
-          lineContent="Ilse is an environmentally-conscious new homeowner who needs an easy way to find information on plants native to her area because she wants to promote biodiversity in her yard."
+          lineContent="Ilse is an eco-conscious new homeowner who needs an easy way to find information on plants native to her area because she wants to promote biodiversity through her yard."
         />
-        <StudyImage srcArr={userJourneyMapArr} imgLabel="User Journey Map" />
+        <StudyImage srcArr={userJourneyMapArr} imgLabel="User journey maps" />
         {/* Early Designs of App*/}
         <Subtitle subtitle="Early Designs" />
         <StudyImage
           srcArr={crazyEightsAndPaperWireframesArr}
-          imgLabel="'Crazy Eights' Ideation Technique and Paper Wireframes"
+          imgLabel="'Crazy eights' ideation technique and paper wireframes"
         />
         <StudyImage
           srcArr={appWireframesArr}
-          imgLabel="Digital Wireframes in Figma"
+          imgLabel="Digital wireframes created in Figma"
         />
-        <StudyImage srcArr={lowFiPrototypeAppArr} imgLabel="Low-fi Prototype" />
+        <StudyImage srcArr={lowFiPrototypeAppArr} imgLabel="Low-fi prototype" />
         {/* Usability Study of App*/}
         <Subtitle subtitle="Usability Study" />
         <List listTopic="Parameters:" listContent={usabilityStudyParams} />
@@ -171,35 +171,35 @@ function CaseStudy1() {
         {/* Refined Designs for App*/}
         <Subtitle subtitle="Refining the Designs" />
         <StudyImage srcArr={appMockupsArr} imgLabel="Mockups" />
-        <StudyImage srcArr={hiFiPrototypeAppArr} imgLabel="Hi-fi Prototype" />
+        <StudyImage srcArr={hiFiPrototypeAppArr} imgLabel="Hi-fi prototype" />
         <List listTopic="Accessibility:" listContent={accessibilityArr} />
         {/* Website */}
         <Subtitle subtitle="Responsive Website" />
         <Line
           lineTopic="Goal:"
-          lineContent="A complementary website was created to fulfill additional user needs such as learning more about native plants through a blog, locating nearby plant nurseries, and learning about the organization"
+          lineContent="A complementary website was created to fulfill additional user needs such as learning more about native plants through a blog, locating nearby plant nurseries, learning about the organization, and downloading the app."
         />
-        <StudyImage srcArr={siteMapArr} imgLabel="Site Map" />
+        <StudyImage srcArr={siteMapArr} imgLabel="Site map" />
         <Line
           lineTopic="Responsive Design:"
-          lineContent="The responsive website was created using a mobile-first approach. The design choices reflected the distinct-but-related nature of the website to the app."
+          lineContent="The responsive website was created using a mobile-first approach. The design choices reflect the distinct-but-related nature of the website and app."
         />
         <StudyImage
           srcArr={wireframesWebArr}
-          imgLabel="Digital Wireframes for Website"
+          imgLabel="Digital wireframes for website"
         />
-        <StudyImage srcArr={lowFiPrototypeWebArr} imgLabel="Low-fi Prototype" />
+        <StudyImage srcArr={lowFiPrototypeWebArr} imgLabel="Low-fi prototype" />
         <StudyImage
           srcArr={webMobileMockupsArr}
-          imgLabel="Mockups for Mobile Screen Size"
+          imgLabel="Mockups for mobile screen size"
         />
         <StudyImage
           srcArr={mockupsLargerScreensWebArr}
-          imgLabel="Mockups for Larger Screen Sizes"
+          imgLabel="Mockups for larger screen sizes"
         />
         <StudyImage
           srcArr={hiFiPrototypeWebArr}
-          imgLabel="Hi-fi Website Prototype"
+          imgLabel="Hi-fi website prototype"
         />
         {/* Takeaways */}
         <Subtitle subtitle="Takeaways" />
@@ -209,7 +209,7 @@ function CaseStudy1() {
         />
         <Line
           lineTopic="What I Learned:"
-          lineContent="Through this project I learned about the challenges of designing a simple-yet-powerful search feature. I also learned about how to make two complementary products with overlapping yet distinct goals."
+          lineContent="Through this project I learned about the challenges of designing a simple-yet-powerful search feature. I also learned about how to make two complementary products with overlapping but distinct goals."
         />
         <List listTopic="Next Steps:" listContent={nextStepsArr} />
       </div>

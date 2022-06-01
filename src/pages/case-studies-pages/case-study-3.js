@@ -43,10 +43,10 @@ const personasArr = [
   { src: persona2, alt: "", size: "desktop" },
 ];
 const painPointsArr = [
-  "1) Predicting demand is difficult, leading to inefficiencies.",
+  "1) Predicting demand is difficult, leading to inventory inefficiencies.",
   "2) Lack of sales reports causing ordering mistakes to sometimes go uncorrected.",
   "3) Workers find inventory counting tedious and uninteresting.",
-  "4) Tech solutions percieved as complicated and unfriendly.",
+  "4) Tech solutions are perceived by some users as complicated and unfriendly.",
 ];
 const userJourneyMapArr = [{ src: userJourneyMap, alt: "", size: "desktop" }];
 const storyboardArr = [
@@ -65,9 +65,9 @@ const usabilityStudyParams = [
   "Session Length - 20-30 minutes",
 ];
 const studyFindings = [
-  "1) Footer icons need to be more easily understandable",
+  "1) Footer icons need to be more understandable.",
   "2) Some users are unfamiliar with POS terminology.",
-  "3) Users need to be warned before data is lost if they go back during input process.",
+  "3) Users need to be warned before data is lost if they go back during the input process.",
 ];
 const affinityDiagramArr = [
   { src: affinityDiagram, alt: "", size: "prototype" },
@@ -86,13 +86,13 @@ const mockupsArr = [
 const hiFiPrototypeArr = [{ src: hiFiPrototype, alt: "", size: "prototype" }];
 const accessibilityArr = [
   "1) Readability was verified with WebAIM contrast checker.",
-  "2) Buttons colors were simplified for consistency.",
-  "3) Buttons were enlarged and spaced farther apart to minimize pain points..",
+  "2) Button and text colors were simplified for consistency.",
+  "3) Buttons were enlarged and spaced farther apart to minimize pain points.",
 ];
 const nextStepsArr = [
-  "Collaborate with engineering team to bring design to life",
-  "Design the remaining user flows of the app",
-  "Test how the different user flows work together to create a comprehensive inventory management system",
+  "1) Collaborate with the engineering team to bring the designs to life.",
+  "2) Design the remaining user flows of the app.",
+  "3) Test how the different user flows work together to create a comprehensive inventory management system.",
 ];
 
 function CaseStudy3() {
@@ -106,22 +106,22 @@ function CaseStudy3() {
         <Subtitle subtitle="Overview" />
         <Line
           lineTopic="Product:"
-          lineContent="An app to help florists easily plan and keep track of their inventory"
+          lineContent="An app to help florists easily plan and keep track of their inventory."
         />
         <Line
           lineTopic="Problem:"
-          lineContent="Florists handle a lot of quick-changing inventory and many are small-scale operations. Florists without the budget or interest to invest in a complicated POS system need help with their inventory management."
+          lineContent="Florists handle a lot of quick-changing inventory and many flower shops are small-scale operations. Florists without the budget or interest to invest in a complicated POS system need help with their inventory management."
         />
         <Line
           lineTopic="Goal:"
-          lineContent="Design a mobile inventory management app for small-scale florists."
+          lineContent="Design an intuitive and friendly mobile inventory management app for small-scale florists."
         />
         <List listTopic="Responsibilites:" listContent={responsibilities} />
         {/* User Research */}
         <Subtitle subtitle="User Research" />
         <Line
           lineTopic="Summary:"
-          lineContent="To learn more about user needs, a series of interviews was conducted with people familiar with flower shops and small business inventory needs in general. Through these interviews, it was discovered that small businesses often rely on less-than-precise methods for handling inventory and product ordering, and that handling inventory is a significant pain point for some employees."
+          lineContent="To learn more about user needs, a series of interviews was conducted with people familiar with flower shops and small business inventory needs in general. Through these interviews, it was discovered that small businesses like florists often rely on less-than-precise methods for handling inventory and product ordering. It was also learned that counting inventory is a significant pain point for some employees."
         />
         <List listTopic="Pain Points:" listContent={painPointsArr} />
         <StudyImage srcArr={personasArr} imgLabel="Personas" />
@@ -135,23 +135,23 @@ function CaseStudy3() {
         <Subtitle subtitle="Early Designs" />
         <StudyImage
           srcArr={storyboardArr}
-          imgLabel="Big picture and close-up storyboarding"
+          imgLabel="Big picture and close-up storyboards"
         />
         <StudyImage
           srcArr={userFlowPaperWireframeArr}
-          imgLabel="User Flow Diagram and Paper Wireframing"
+          imgLabel="User flow diagram and paper wireframes"
         />
         <StudyImage
           srcArr={wireframesArr}
-          imgLabel="Digital Wireframes in Figma"
+          imgLabel="Digital wireframes created in Figma"
         />
-        <StudyImage srcArr={lowFiPrototypeArr} imgLabel="Low-fi Prototype" />
+        <StudyImage srcArr={lowFiPrototypeArr} imgLabel="Low-fi prototype" />
         {/* Usability Study */}
         <Subtitle subtitle="Usability Study" />
         <List listTopic="Parameters:" listContent={usabilityStudyParams} />
         <StudyImage
           srcArr={affinityDiagramArr}
-          imgLabel="Organizing findings with an affinity diagram"
+          imgLabel="Organizing study findings with an affinity diagram"
         />
         <List listTopic="Findings:" listContent={studyFindings} />
         {/* Refined Designs */}
@@ -161,7 +161,7 @@ function CaseStudy3() {
           imgLabel="Creating elements in a sticker sheet"
         />
         <StudyImage srcArr={mockupsArr} imgLabel="Mockups" />
-        <StudyImage srcArr={hiFiPrototypeArr} imgLabel="Hi-fi Prototype" />
+        <StudyImage srcArr={hiFiPrototypeArr} imgLabel="Hi-fi prototype" />
         <List listTopic="Accessibility:" listContent={accessibilityArr} />
         {/* Takeaways */}
         <Subtitle subtitle="Takeaways" />
@@ -171,7 +171,7 @@ function CaseStudy3() {
         />
         <Line
           lineTopic="What I Learned:"
-          lineContent="Throughout this project I learned the importance of listening to users and iterating on the design. I also learned how to make designs more accessible and inclusive."
+          lineContent="Throughout this project I learned the importance of listening to users and iterating on the design. I also practiced thinking up innovative solutions to user problems."
         />
         <List listTopic="Next Steps:" listContent={nextStepsArr} />
       </div>
