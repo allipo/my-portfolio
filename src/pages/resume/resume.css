@@ -5,14 +5,13 @@
 }
 
 #resumeFrame {
-    width: 80%;
-    height: 1100px;
+    width: 60%;
+    height: 120vh;
 
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px) { 
     #resumeFrame {
-        height: 500px;
         width: 100%;
     }
 }
