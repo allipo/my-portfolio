@@ -1,14 +1,17 @@
 #resume-page-body {
     display: flex;
     justify-content: center;
-    background-color: snow;
+    background-color: #f01a50;
+    background-color: #9c1e48;
+    box-shadow: inset 0px 0px 30px #fad6be;
 }
 
 #resumeFrame {
     width: 60%;
-    height: 120vh;
+    height: 140vh;
+    margin: 30px 5px;
 
-}
+} 
 
 @media (max-width: 1000px) { 
     #resumeFrame {

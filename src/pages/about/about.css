@@ -1,25 +1,53 @@
+#about-background {
+    background-color: #0747a8;
+    box-shadow: inset 0px 0px 30px #64c8fa;
+    padding: 30px 5px;
+}
+
 #about-content-area {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
+ 
 #gifArea {
     display: flex;
     justify-content: center;
     width: 700px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.me-pic {
+    border-radius: 5px;
 }
 
 #about-writing-area {
-    background-color: green;
+    background-color: snow;
     width: 500px;
+    height: fit-content;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 20px 10px;
 } 
+
+.about-subheader {
+    font-size: 22px;
+    margin: 15px 0px 5px 20px;
+    font-weight: 600;
+}
+.about-paragraph {
+    margin: 0px 10px 5px 10px;
+}
+
+
 
 @media (max-width: 1000px) {
     #gifArea {
         width: 80vw;
+        margin-right: 0px;
     }
     #about-writing-area {
-        width: 90vw;
+        width: 80vw;
     }
 }

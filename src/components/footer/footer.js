@@ -16,7 +16,7 @@ function Footer() {
         <div className="left-child">Allison Pestotnik</div>
       </div>
       <div id="right-container">
-        <div className="right-child">allisonpdesign@gmail.com</div>
+        <div className="right-child">allisonpestotnikdesign@gmail.com</div>
         <a
           href="https://www.linkedin.com/in/allisonpestotnik/"
           target="_blank"
