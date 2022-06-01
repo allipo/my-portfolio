@@ -58,7 +58,7 @@ function NavBar() {
               setViewFlyout(false);
             }}
           >
-            <img src={closeIcon} width="36px" alt="close flyout menu" />
+            <img src={closeIcon} width="28px" alt="close flyout menu" />
           </div>
           <Link to="/">
             <div className="flyout-button">Home</div>

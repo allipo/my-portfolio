@@ -199,7 +199,7 @@ function CaseStudy2() {
           srcArr={digitalWireframesArr}
           imgLabel="Sample digital wireframes created in Adobe XD"
         />
-        <StudyImage srcArr={lowFiPrototypeArr} imgLabel="Low-Fi prototype" />
+        <StudyImage srcArr={lowFiPrototypeArr} imgLabel="Low-fi prototype" />
         {/* Usability Study */}
         <Subtitle subtitle="Usability Study" />
         <List listTopic="Parameters:" listContent={usabilityStudyParams} />
