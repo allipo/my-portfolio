@@ -57,7 +57,7 @@ function About() {
             <p className="about-paragraph">
               I first got interested in user experience when I was a teacher and
               realized my students needed a better system for learning to read
-              as non-native speakers, and so I designed one for them in my spare
+              as non-native speakers, so I designed one for them in my spare
               time. It ended up making both their lives and mine a lot easier.
             </p>
             <p className="about-paragraph">
