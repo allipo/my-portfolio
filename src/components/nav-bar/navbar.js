@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import logo from "../../components/logo/logo.svg";
 import menuIcon from "./hamburgerMenu.png";
+import closeIcon from "./closeIcon.png";
 import { Link } from "react-router-dom";
 
 function NavBar() {
@@ -23,18 +24,21 @@ function NavBar() {
             <img src={logo} alt="initials logo" />
           </div>
         </Link>
+        <Link to="/">
+          <div className="nav-child">Home</div>
+        </Link>
         <Link to="/casestudies">
           <div className="nav-child">Case Studies</div>
         </Link>
         <Link to="/resume">
-          <div className="nav-child">Résumé</div>
+          <div className="nav-child">Resumé</div>
         </Link>
         <Link to="/about">
           <div className="nav-child">About Me</div>
         </Link>
-        <Link to="/oddsandends">
+        {/* <Link to="/oddsandends">
           <div className="nav-child">Odds & Ends</div>
-        </Link>
+        </Link> */}
 
         <img
           src={menuIcon}
@@ -49,27 +53,28 @@ function NavBar() {
       {windowSize < 1000 && (
         <div id={viewFlyout ? "open-menu" : "close-menu"}>
           <div
+            id="close-menu-icon-area"
             onClick={() => {
               setViewFlyout(false);
             }}
           >
-            X
+            <img src={closeIcon} width="36px" alt="close flyout menu" />
           </div>
           <Link to="/">
-            <div>Home</div>
+            <div className="flyout-button">Home</div>
           </Link>
           <Link to="/casestudies">
-            <div>Case Studies</div>
+            <div className="flyout-button">Case Studies</div>
           </Link>
           <Link to="/resume">
-            <div>Résumé</div>
+            <div className="flyout-button">Resumé</div>
           </Link>
           <Link to="/about">
-            <div>About Me</div>
+            <div className="flyout-button">About Me</div>
           </Link>
-          <Link to="/oddsandends">
+          {/* <Link to="/oddsandends">
             <div>Odds & Ends</div>
-          </Link>
+          </Link> */}
         </div>
       )}
     </>
