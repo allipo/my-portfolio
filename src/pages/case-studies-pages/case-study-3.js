@@ -10,7 +10,7 @@ import Line from "./case-studies-components/case-study-line";
 import List from "./case-studies-components/case-study-list";
 import Footer from "../../components/footer/footer";
 import GoToTop from "../../components/go-to-top/goToTop";
-import heroImage from "./study-3-assets/floristAppHero.jpg";
+import heroImage from "./study-3-assets/floristAppHeroImg.jpg";
 import persona1 from "./study-3-assets/persona1.jpg";
 import persona2 from "./study-3-assets/persona2.jpg";
 import userJourneyMap from "./study-3-assets/userJourneyMap.jpg";

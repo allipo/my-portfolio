@@ -10,7 +10,7 @@ import Line from "./case-studies-components/case-study-line";
 import List from "./case-studies-components/case-study-list";
 import Footer from "../../components/footer/footer";
 import GoToTop from "../../components/go-to-top/goToTop";
-import nativePlantsHero from "./study-1-assets/nativePlantsHero.jpg";
+import nativePlantsHero from "./study-1-assets/florishHeroImg.jpg";
 import persona1 from "./study-1-assets/persona1.jpg";
 import persona2 from "./study-1-assets/persona2.jpg";
 import userJourney1 from "./study-1-assets/userJourney1.jpg";
