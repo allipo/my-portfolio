@@ -48,13 +48,49 @@
 
 .study-hero {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 1000px) {
     .study-hero {
+        margin-bottom: 10px;
+    }
+}
+
+/*****************Prototype Link Button*****************/
+ 
+#link-btn-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 4vw;
+}
+.link-btn {
+    margin: 0px 20px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #5dd9ab;
+    background-image: linear-gradient(10deg, #5dd9ab 0%, #daf2b1 100%);
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px gray;
+} 
+@media (max-width: 1000px) {
+    #link-btn-area {
+        justify-content: center;
+        align-items: center;
+        padding-right: 0vw;
         margin-bottom: 20px;
     }
+    .link-btn {
+        margin: 10px 20px;
+        padding: 10px;
+        font-size: 16px;
+        background-color: pink;
+        border-radius: 10px;
+        box-shadow: 3px 3px 8px gray;
+    } 
 }
 
 /*****************SubTitle*****************/

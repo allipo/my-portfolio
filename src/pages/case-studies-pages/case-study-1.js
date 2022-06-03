@@ -3,6 +3,7 @@ import "./case-studies-pages.css";
 import NavBar from "../../components/nav-bar/navbar";
 import StudyTitle from "./case-studies-components/case-study-title";
 import StudyHero from "./case-studies-components/case-study-hero";
+import StudyButton from "./case-studies-components/case-study-link-btn";
 import Subtitle from "./case-studies-components/case-study-subtitle";
 import StudyImage from "./case-studies-components/case-study-image";
 import Line from "./case-studies-components/case-study-line";
@@ -37,6 +38,17 @@ import mockupWeb4 from "./study-1-assets/mockupWeb4.jpg";
 import mockupWeb5 from "./study-1-assets/mockupWeb5.jpg";
 import mockupsLargerScreensWeb from "./study-1-assets/mockupsLargerScreensWeb.jpg";
 import hiFiPrototypeWeb from "./study-1-assets/hiFiPrototypeWeb.jpg";
+
+const linkBtnArr = [
+  {
+    link: "https://www.figma.com/proto/V4eLsACLDZOTuzTZs2NSGy/Native-Plants-Project?node-id=38%3A489&scaling=scale-down&page-id=36%3A2&starting-point-node-id=38%3A489",
+    btnText: "View App Prototype Live",
+  },
+  {
+    link: "https://www.figma.com/proto/bMNkMP06iLd8djQ2VfyyYx/Native-Plants-Website?node-id=14%3A31&scaling=scale-down&page-id=14%3A30&starting-point-node-id=14%3A31",
+    btnText: "View Website Prototype Live",
+  },
+];
 
 const responsibilitiesArr = [
   "User Research",
@@ -122,6 +134,8 @@ function CaseStudy1() {
       <div className="study-content-container">
         <StudyTitle title="Florish App and Website" />
         <StudyHero src={nativePlantsHero} alt="" />
+        {/* Prototype Link */}
+        <StudyButton btnArr={linkBtnArr} />
         {/* Overview */}
         <Subtitle subtitle="Overview" />
         <Line

@@ -3,6 +3,7 @@ import "./case-studies-pages.css";
 import NavBar from "../../components/nav-bar/navbar";
 import StudyTitle from "./case-studies-components/case-study-title";
 import StudyHero from "./case-studies-components/case-study-hero";
+import StudyButton from "./case-studies-components/case-study-link-btn";
 import Subtitle from "./case-studies-components/case-study-subtitle";
 import StudyImage from "./case-studies-components/case-study-image";
 import Line from "./case-studies-components/case-study-line";
@@ -52,6 +53,13 @@ import assetDisplay3 from "./study-2-assets/assetDisplay3.jpg";
 import assetDisplay4 from "./study-2-assets/assetDisplay4.jpg";
 import assetDisplay5 from "./study-2-assets/assetDisplay5.jpg";
 import assetDisplay6 from "./study-2-assets/assetDisplay6.svg";
+
+const linkBtnArr = [
+  {
+    link: "https://xd.adobe.com/view/f055c95b-7e2a-4829-aae4-651f69d2e974-a506/?fullscreen",
+    btnText: "View Prototype Live",
+  },
+];
 
 const responsibilities = [
   "User Research",
@@ -161,6 +169,8 @@ function CaseStudy2() {
       <div className="study-content-container">
         <StudyTitle title="EcoPup Organic Dog Food" />
         <StudyHero src={heroImage} alt="" />
+        {/* Prototype Link */}
+        <StudyButton btnArr={linkBtnArr} />
         {/* Overview */}
         <Subtitle subtitle="Overview" />
         <Line

@@ -3,6 +3,7 @@ import "./case-studies-pages.css";
 import NavBar from "../../components/nav-bar/navbar";
 import StudyTitle from "./case-studies-components/case-study-title";
 import StudyHero from "./case-studies-components/case-study-hero";
+import StudyButton from "./case-studies-components/case-study-link-btn";
 import Subtitle from "./case-studies-components/case-study-subtitle";
 import StudyImage from "./case-studies-components/case-study-image";
 import Line from "./case-studies-components/case-study-line";
@@ -30,6 +31,13 @@ import mockup6 from "./study-3-assets/mockup6.jpg";
 import mockup7 from "./study-3-assets/mockup7.jpg";
 import mockup8 from "./study-3-assets/mockup8.jpg";
 import hiFiPrototype from "./study-3-assets/hiFiPrototype.jpg";
+
+const linkBtnArr = [
+  {
+    link: "https://www.figma.com/proto/kIl0a2MuP27rAORFuIA19u/Floral-App-Wireframe?node-id=140%3A47&scaling=scale-down&page-id=140%3A2&starting-point-node-id=140%3A47&show-proto-sidebar=1",
+    btnText: "View Prototype Live",
+  },
+];
 
 const responsibilities = [
   "UX Research",
@@ -102,6 +110,8 @@ function CaseStudy3() {
       <div className="study-content-container">
         <StudyTitle title="Inventory Management App for Florists" />
         <StudyHero src={heroImage} alt="" />
+        {/* Prototype Link */}
+        <StudyButton btnArr={linkBtnArr} />
         {/* Overview */}
         <Subtitle subtitle="Overview" />
         <Line
