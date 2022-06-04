@@ -39,9 +39,6 @@ function NavBar() {
         <Link to="/about">
           <div className="nav-child">About Me</div>
         </Link>
-        {/* <Link to="/oddsandends">
-          <div className="nav-child">Odds & Ends</div>
-        </Link> */}
 
         <img
           src={menuIcon}
@@ -69,15 +66,15 @@ function NavBar() {
           <Link to="/casestudies">
             <div className="flyout-button">Case Studies</div>
           </Link>
+          <Link to="/oddsandends">
+            <div className="flyout-button">Odds & Ends</div>
+          </Link>
           <Link to="/resume">
             <div className="flyout-button">Resumé</div>
           </Link>
           <Link to="/about">
             <div className="flyout-button">About Me</div>
           </Link>
-          {/* <Link to="/oddsandends">
-            <div>Odds & Ends</div>
-          </Link> */}
         </div>
       )}
     </>
