@@ -64,8 +64,8 @@ let detailedPreviewContent = [
     description:
       "Nothing serious, just a simple practice with motion from when I was trying to get better at CSS",
     image: rabbitPic,
-    skills: ["CSS animation", "Graphic Design"],
-    tools: ["HTML/CSS", "PNG texture"],
+    skills: ["CSS Animation", "Graphic Design"],
+    tools: ["HTML/CSS", "PNG Texture"],
     linkTo: "/rabbitproject",
   },
 ];
