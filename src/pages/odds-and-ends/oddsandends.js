@@ -9,6 +9,7 @@ import GoToTop from "../../components/go-to-top/goToTop";
 import phonicsPic from "./phonicsPreviewPic.png";
 import starrySkyPic from "./starrySkyImg.png";
 import rabbitPic from "./Rabbit.png";
+import computerPic from "./glowingComputer.jpg";
 
 let oddsAndEndsTitle = "Odds & Ends";
 let introText =
@@ -28,6 +29,26 @@ let detailedPreviewContent = [
     ],
     tools: ["Adobe Illustrator", "Adobe Photoshop", "Adobe InDesign"],
     linkTo: "/phonicsproject",
+  },
+  {
+    name: "This Very Website",
+    description:
+      "I planned and built this portfolio site using the React library and deployed it with Netlify",
+    image: computerPic,
+    skills: [
+      "Front-End Development",
+      "Responsive Web Design",
+      "Graphic Design",
+    ],
+    tools: [
+      "Adobe Illustrator",
+      "JSX/CSS",
+      "JavaScript",
+      "React",
+      "Git/GitHub",
+      "Netlify",
+    ],
+    linkTo: "/",
   },
   {
     name: "Starry Sky",
