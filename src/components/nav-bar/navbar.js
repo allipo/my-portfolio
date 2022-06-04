@@ -30,6 +30,9 @@ function NavBar() {
         <Link to="/casestudies">
           <div className="nav-child">Case Studies</div>
         </Link>
+        <Link to="/oddsandends">
+          <div className="nav-child">Odds & Ends</div>
+        </Link>
         <Link to="/resume">
           <div className="nav-child">Resumé</div>
         </Link>

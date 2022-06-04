@@ -157,6 +157,10 @@
     width: 120px;
     margin: 5px;
 }
+.vertical-paper {
+    width: 175px;
+    margin: 5px;
+}
 
 @media (max-width: 600px) {
     .img-label {
@@ -177,6 +181,9 @@
     }
     .asset {
         width: 50px;
+    }
+    .vertical-paper {
+        width: 40%;
     }
 }
 /*****************Line*****************/

@@ -6,7 +6,8 @@ import ContentIntro from "../../components/content-intro/contentintro";
 import DetailedPreview from "../../components/detailed-preview/detailedpreview";
 import Footer from "../../components/footer/footer";
 import GoToTop from "../../components/go-to-top/goToTop";
-import picture from "../case-studies-pages/study-1-assets/crazyEights.jpg";
+import phonicsPic from "./phonicsPreviewPic.png";
+import starrySkyPic from "./starrySkyImg.png";
 
 let oddsAndEndsTitle = "Odds & Ends";
 let introText =
@@ -14,25 +15,27 @@ let introText =
 
 let detailedPreviewContent = [
   {
-    name: "Name of Study 1",
-    description: "Description of what the project is about",
-    image: picture,
-    skills: ["skill 1 blah blah", "skill 2", "skill 3"],
-    tools: ["tool 1", "tool 2", "tool 3"],
+    name: "Phonics System",
+    description:
+      "A comprehensive phonics system I created while teaching in Japan to help my students learn to read",
+    image: phonicsPic,
+    skills: [
+      "Understanding the Problem",
+      "Empathizing with Users",
+      "Ideating Solutions",
+      "Graphic Design",
+    ],
+    tools: ["Adobe Illustrator", "Adobe Photoshop", "Adobe InDesign"],
+    linkTo: "/phonicsproject",
   },
   {
-    name: "Name of Study 2",
-    description: "Description of what the project is about",
-    image: picture,
-    skills: ["skill 1", "skill 2", "skill 3"],
-    tools: ["tool 1", "tool 2", "tool 3"],
-  },
-  {
-    name: "Name of Study 3",
-    description: "Description of what the project is about",
-    image: picture,
-    skills: ["skill 1", "skill 2", "skill 3"],
-    tools: ["tool 1", "tool 2", "tool 3"],
+    name: "Starry Sky",
+    description:
+      "A moving website background I programmed using the JavaScript p5 library",
+    image: starrySkyPic,
+    skills: ["Programming", "Design"],
+    tools: ["HTML/CSS", "JavaScript", "p5 Library"],
+    externalLink: "https://allipo.github.io/StarrySky/",
   },
 ];
 
@@ -41,7 +44,7 @@ function OddsAndEnds() {
     <>
       <NavBar />
       <PageTitle title={oddsAndEndsTitle} />
-      <div className="main-content-container">
+      <div className="nutty-content-container">
         <ContentIntro introText={introText} />
         <DetailedPreview content={detailedPreviewContent} />
       </div>
