@@ -8,6 +8,7 @@ import Footer from "../../components/footer/footer";
 import GoToTop from "../../components/go-to-top/goToTop";
 import phonicsPic from "./phonicsPreviewPic.png";
 import starrySkyPic from "./starrySkyImg.png";
+import rabbitPic from "./Rabbit.png";
 
 let oddsAndEndsTitle = "Odds & Ends";
 let introText =
@@ -36,6 +37,15 @@ let detailedPreviewContent = [
     skills: ["Programming", "Design"],
     tools: ["HTML/CSS", "JavaScript", "p5 Library"],
     externalLink: "https://allipo.github.io/StarrySky/",
+  },
+  {
+    name: "Rabbit on Bicycle",
+    description:
+      "Nothing serious, just a simple practice with motion from when I was trying to get better at CSS",
+    image: rabbitPic,
+    skills: ["CSS animation", "Graphic Design"],
+    tools: ["HTML/CSS", "PNG texture"],
+    linkTo: "/rabbitproject",
   },
 ];
 

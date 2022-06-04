@@ -9,6 +9,7 @@ import CaseStudy1 from "./pages/case-studies-pages/case-study-1";
 import CaseStudy2 from "./pages/case-studies-pages/case-study-2";
 import CaseStudy3 from "./pages/case-studies-pages/case-study-3";
 import PhonicsSystem from "./pages/odds-and-ends-pages/phonics-system";
+import Rabbit from "./pages/odds-and-ends-pages/rabbitBicycle";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/casestudy2" element={<CaseStudy2 />} />
         <Route path="/casestudy3" element={<CaseStudy3 />} />
         <Route path="/phonicsproject" element={<PhonicsSystem />} />
+        <Route path="/rabbitproject" element={<Rabbit />} />
       </Routes>
     </BrowserRouter>
   );
