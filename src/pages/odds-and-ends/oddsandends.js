@@ -10,6 +10,7 @@ import phonicsPic from "./phonicsPreviewPic.png";
 import starrySkyPic from "./starrySkyImg.png";
 import rabbitPic from "./Rabbit.png";
 import computerPic from "./glowingComputer.jpg";
+import japanPostcardsPic from "./postcardsPreview.png";
 
 let oddsAndEndsTitle = "Odds & Ends";
 let introText =
@@ -49,6 +50,15 @@ let detailedPreviewContent = [
       "Netlify",
     ],
     linkTo: "/",
+  },
+  {
+    name: "Postcards of Japan",
+    description:
+      "A series of hand-drawn postcards I made based on photographs I took around Japan",
+    image: japanPostcardsPic,
+    skills: ["Illustration"],
+    tools: ["Watercolor", "Calligraphy Pen"],
+    linkTo: "/japanpostcards",
   },
   {
     name: "Starry Sky",
