@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./oddsandends.css";
 import NavBar from "../../components/nav-bar/navbar";
 import PageTitle from "../../components/page-title/PageTitle";
@@ -11,6 +11,7 @@ import starrySkyPic from "./starrySkyImg.png";
 import rabbitPic from "./Rabbit.png";
 import computerPic from "./glowingComputer.jpg";
 import japanPostcardsPic from "./postcardsPreview.png";
+import phonicsHero from "../odds-and-ends-pages/phonics-assets/phonicsHero.jpg";
 
 let oddsAndEndsTitle = "Odds & Ends";
 let introText =
@@ -79,8 +80,15 @@ let detailedPreviewContent = [
     linkTo: "/rabbitproject",
   },
 ];
+const preloadArr = [phonicsHero];
 
 function OddsAndEnds() {
+  useEffect(() => {
+    preloadArr.forEach((picture) => {
+      const img = new Image();
+      img.src = picture;
+    });
+  });
   return (
     <>
       <NavBar />

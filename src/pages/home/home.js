@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavBar from "../../components/nav-bar/navbar";
 import PageTitle from "../../components/page-title/PageTitle";
 import Artwork from "../../components/artwork/artwork";
@@ -8,8 +8,27 @@ import GoToTop from "../../components/go-to-top/goToTop";
 import project1Pic from "../case-studies/florishAppPreview.png";
 import project2Pic from "../case-studies/ecopupPreview.png";
 import project3Pic from "../case-studies/floristPreview.png";
+import resumeImg from "../resume/resume2022.jpg";
+import phonicsPreview from "../odds-and-ends/phonicsPreviewPic.png";
+import postcardsPreview from "../odds-and-ends/postcardsPreview.png";
+import rabbitPreview from "../odds-and-ends/Rabbit.png";
+import starrySkyPreview from "../odds-and-ends/starrySkyImg.png";
+
+const preloadArr = [
+  resumeImg,
+  phonicsPreview,
+  postcardsPreview,
+  rabbitPreview,
+  starrySkyPreview,
+];
 
 function Home() {
+  useEffect(() => {
+    preloadArr.forEach((picture) => {
+      const img = new Image();
+      img.src = picture;
+    });
+  });
   const projectsArr = [
     {
       name: "Florish App and Website",
