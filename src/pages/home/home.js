@@ -13,6 +13,7 @@ import phonicsPreview from "../odds-and-ends/phonicsPreviewPic.png";
 import postcardsPreview from "../odds-and-ends/postcardsPreview.png";
 import rabbitPreview from "../odds-and-ends/Rabbit.png";
 import starrySkyPreview from "../odds-and-ends/starrySkyImg.png";
+import faceDetectionPreview from "../odds-and-ends/faceDetectionPreview.png";
 
 const preloadArr = [
   resumeImg,
@@ -20,6 +21,7 @@ const preloadArr = [
   postcardsPreview,
   rabbitPreview,
   starrySkyPreview,
+  faceDetectionPreview,
 ];
 
 function Home() {

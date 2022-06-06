@@ -12,6 +12,7 @@ import rabbitPic from "./Rabbit.png";
 import computerPic from "./glowingComputer.jpg";
 import japanPostcardsPic from "./postcardsPreview.png";
 import phonicsHero from "../odds-and-ends-pages/phonics-assets/phonicsHero.jpg";
+import faceDetectionPreview from "./faceDetectionPreview.png";
 
 let oddsAndEndsTitle = "Odds & Ends";
 let introText =
@@ -69,6 +70,15 @@ let detailedPreviewContent = [
     skills: ["Programming", "Design"],
     tools: ["HTML/CSS", "JavaScript", "p5 Library"],
     externalLink: "https://allipo.github.io/StarrySky/",
+  },
+  {
+    name: "Face Detection App",
+    description:
+      "A web app that lets users create an account and detect a face in their picture, completed as part of a web development course. (Not currently deployed.)",
+    image: faceDetectionPreview,
+    skills: ["Front-End Development", "Back-End Development", "Database"],
+    tools: ["React", "Node.js", "API", "SQL", "Heroku"],
+    linkTo: "/oddsandends",
   },
   {
     name: "Rabbit on Bicycle",
