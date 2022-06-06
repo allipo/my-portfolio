@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavBar from "../../components/nav-bar/navbar";
 import PageTitle from "../../components/page-title/PageTitle";
 import ContentIntro from "../../components/content-intro/contentintro";
@@ -9,6 +9,9 @@ import "./casestudies.css";
 import florishPic from "./florishAppPreview.png";
 import ecopupPic from "./ecopupPreview.png";
 import floristAppPic from "./floristPreview.png";
+import florishHero from "../case-studies-pages/study-1-assets/florishHeroImg.jpg";
+import ecopupHero from "../case-studies-pages/study-2-assets/ecopupHeroImg.jpg";
+import floristHero from "../case-studies-pages/study-3-assets/floristAppHeroImg.jpg";
 
 let caseStudiesTitle = "Case Studies";
 let introText =
@@ -66,7 +69,16 @@ let detailedPreviewContent = [
   },
 ];
 
+const preloadArr = [florishHero, ecopupHero, floristHero];
+
 function CaseStudies() {
+  useEffect(() => {
+    preloadArr.forEach((picture) => {
+      const img = new Image();
+      img.src = picture;
+    });
+  });
+
   return (
     <>
       <NavBar />

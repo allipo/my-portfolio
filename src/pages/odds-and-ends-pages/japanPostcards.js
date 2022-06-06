@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../case-studies-pages/case-studies-pages.css";
 import "./rabbitBicycle.css";
 import NavBar from "../../components/nav-bar/navbar";
@@ -49,6 +49,12 @@ const postcardsArr = [
 ];
 
 function JapanPostcards() {
+  useEffect(() => {
+    postcardsArr.forEach((picture) => {
+      const img = new Image();
+      img.src = picture.picture;
+    });
+  });
   return (
     <>
       <NavBar />
