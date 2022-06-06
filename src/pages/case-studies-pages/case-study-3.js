@@ -20,7 +20,7 @@ import userFlow from "./study-3-assets/userFlow.jpg";
 import paperWireframe from "./study-3-assets/paperWireframes.jpg";
 import wireframes from "./study-3-assets/wireframes.jpg";
 import lowFiPrototype from "./study-3-assets/lowFiPrototype.jpg";
-import affinityDiagram from "./study-3-assets/affinityDiagram.png";
+import affinityDiagram from "./study-3-assets/affinityDiagram.jpg";
 import stickerSheet from "./study-3-assets/stickerSheet.jpg";
 import mockup1 from "./study-3-assets/mockup1.jpg";
 import mockup2 from "./study-3-assets/mockup2.jpg";

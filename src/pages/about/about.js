@@ -4,7 +4,7 @@ import PageTitle from "../../components/page-title/PageTitle";
 import Footer from "../../components/footer/footer";
 import GoToTop from "../../components/go-to-top/goToTop";
 import wavingMoving from "./waving.gif";
-import wavingStill from "./waving.png";
+import wavingStill from "./waving.jpg";
 import "./about.css";
 
 let aboutTitle = "About Me";
