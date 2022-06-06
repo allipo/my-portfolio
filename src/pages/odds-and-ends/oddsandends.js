@@ -57,7 +57,7 @@ let detailedPreviewContent = [
     description:
       "A series of hand-drawn postcards I made based on photographs I took around Japan",
     image: japanPostcardsPic,
-    skills: ["Illustration"],
+    skills: ["Illustration", "Painting"],
     tools: ["Watercolor", "Calligraphy Pen"],
     linkTo: "/japanpostcards",
   },
