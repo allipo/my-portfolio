@@ -6,13 +6,13 @@ import ContentIntro from "../../components/content-intro/contentintro";
 import DetailedPreview from "../../components/detailed-preview/detailedpreview";
 import Footer from "../../components/footer/footer";
 import GoToTop from "../../components/go-to-top/goToTop";
-import phonicsPic from "./phonicsPreviewPic.png";
-import starrySkyPic from "./starrySkyImg.png";
-import rabbitPic from "./Rabbit.png";
+import phonicsPic from "./phonicsPreviewPic.webp";
+import starrySkyPic from "./starrySkyImg.webp";
+import rabbitPic from "./Rabbit.webp";
 import computerPic from "./glowingComputer.jpg";
-import japanPostcardsPic from "./postcardsPreview.png";
+import japanPostcardsPic from "./postcardsPreview.webp";
 import phonicsHero from "../odds-and-ends-pages/phonics-assets/phonicsHero.jpg";
-import faceDetectionPreview from "./faceDetectionPreview.png";
+import faceDetectionPreview from "./faceDetectionPreview.webp";
 
 let oddsAndEndsTitle = "Odds & Ends";
 let introText =

@@ -5,15 +5,15 @@ import Artwork from "../../components/artwork/artwork";
 import Preview from "../../components/preview/preview";
 import Footer from "../../components/footer/footer";
 import GoToTop from "../../components/go-to-top/goToTop";
-import project1Pic from "../case-studies/florishAppPreview.png";
-import project2Pic from "../case-studies/ecopupPreview.png";
-import project3Pic from "../case-studies/floristPreview.png";
+import project1Pic from "../case-studies/florishAppPreview.webp";
+import project2Pic from "../case-studies/ecopupPreview.webp";
+import project3Pic from "../case-studies/floristPreview.webp";
 import resumeImg from "../resume/resume2022.jpg";
-import phonicsPreview from "../odds-and-ends/phonicsPreviewPic.png";
-import postcardsPreview from "../odds-and-ends/postcardsPreview.png";
-import rabbitPreview from "../odds-and-ends/Rabbit.png";
-import starrySkyPreview from "../odds-and-ends/starrySkyImg.png";
-import faceDetectionPreview from "../odds-and-ends/faceDetectionPreview.png";
+import phonicsPreview from "../odds-and-ends/phonicsPreviewPic.webp";
+import postcardsPreview from "../odds-and-ends/postcardsPreview.webp";
+import rabbitPreview from "../odds-and-ends/Rabbit.webp";
+import starrySkyPreview from "../odds-and-ends/starrySkyImg.webp";
+import faceDetectionPreview from "../odds-and-ends/faceDetectionPreview.webp";
 
 const preloadArr = [
   resumeImg,
