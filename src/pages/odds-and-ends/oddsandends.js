@@ -9,7 +9,7 @@ import GoToTop from "../../components/go-to-top/goToTop";
 import phonicsPic from "./phonicsPreviewPic.webp";
 import starrySkyPic from "./starrySkyImg.webp";
 import newsletterPic from "../odds-and-ends-pages/whiteboard-assets/wb-1.webp";
-import everydayTechPic from "../odds-and-ends-pages/everyday-tech-assets/phone.svg";
+import everydayTechPic from "../odds-and-ends-pages/everyday-tech-assets/pen.svg";
 import rabbitPic from "./Rabbit.webp";
 import computerPic from "./glowingComputer.jpg";
 import japanPostcardsPic from "./postcardsPreview.webp";
@@ -98,7 +98,8 @@ let detailedPreviewContent = [
   },
   {
     name: "Everyday Technology",
-    description: "Graphic images of objects I created using Adobe Illustrator.",
+    description:
+      "SVGs of everyday objects I created using shapes and gradients in Adobe Illustrator.",
     image: everydayTechPic,
     skills: ["Graphic Design", "Illustration"],
     tools: ["Adobe Illustrator"],
