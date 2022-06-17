@@ -9,6 +9,7 @@ import GoToTop from "../../components/go-to-top/goToTop";
 import phonicsPic from "./phonicsPreviewPic.webp";
 import starrySkyPic from "./starrySkyImg.webp";
 import newsletterPic from "../odds-and-ends-pages/whiteboard-assets/wb-1.webp";
+import everydayTechPic from "../odds-and-ends-pages/everyday-tech-assets/phone.svg";
 import rabbitPic from "./Rabbit.webp";
 import computerPic from "./glowingComputer.jpg";
 import japanPostcardsPic from "./postcardsPreview.webp";
@@ -94,6 +95,14 @@ let detailedPreviewContent = [
     ],
     tools: ["Adobe InDesign", "Adobe Illustrator", "Adobe Photoshop"],
     linkTo: "/newsletter",
+  },
+  {
+    name: "Everyday Technology",
+    description: "Graphic images of objects I created using Adobe Illustrator.",
+    image: everydayTechPic,
+    skills: ["Graphic Design", "Illustration"],
+    tools: ["Adobe Illustrator"],
+    linkTo: "/everydaytech",
   },
   {
     name: "Rabbit on Bicycle",

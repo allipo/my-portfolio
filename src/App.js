@@ -12,6 +12,7 @@ import PhonicsSystem from "./pages/odds-and-ends-pages/phonics-system";
 import Rabbit from "./pages/odds-and-ends-pages/rabbitBicycle";
 import JapanPostcards from "./pages/odds-and-ends-pages/japanPostcards";
 import Newsletter from "./pages/odds-and-ends-pages/newsletter";
+import EverydayTech from "./pages/odds-and-ends-pages/everydayTech";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/rabbitproject" element={<Rabbit />} />
         <Route path="/japanpostcards" element={<JapanPostcards />} />
         <Route path="/newsletter" element={<Newsletter />} />
+        <Route path="/everydaytech" element={<EverydayTech />} />
       </Routes>
     </BrowserRouter>
   );
