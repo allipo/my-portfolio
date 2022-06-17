@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../case-studies-pages/case-studies-pages.css";
-import "./rabbitBicycle.css";
+// import "./rabbitBicycle.css";
 import NavBar from "../../components/nav-bar/navbar";
 import Footer from "../../components/footer/footer";
 import GoToTop from "../../components/go-to-top/goToTop";

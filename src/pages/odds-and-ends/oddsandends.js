@@ -8,6 +8,7 @@ import Footer from "../../components/footer/footer";
 import GoToTop from "../../components/go-to-top/goToTop";
 import phonicsPic from "./phonicsPreviewPic.webp";
 import starrySkyPic from "./starrySkyImg.webp";
+import newsletterPic from "../odds-and-ends-pages/whiteboard-assets/wb-1.webp";
 import rabbitPic from "./Rabbit.webp";
 import computerPic from "./glowingComputer.jpg";
 import japanPostcardsPic from "./postcardsPreview.webp";
@@ -79,6 +80,20 @@ let detailedPreviewContent = [
     skills: ["Front-End Development", "Back-End Development", "Database"],
     tools: ["React", "Node.js", "API", "SQL", "Heroku"],
     linkTo: "/oddsandends",
+  },
+  {
+    name: "Newsletter",
+    description:
+      "Sample pages from a company newsletter I directed as editor-in-chief while working at an English education company in Japan. The goal of the newsletter was to support teachers by fostering a sense of community, increasing engagement, and sharing resources.",
+    image: newsletterPic,
+    skills: [
+      "Page Layouts",
+      "Graphic Design",
+      "Communication",
+      "Collaboration",
+    ],
+    tools: ["Adobe InDesign", "Adobe Illustrator", "Adobe Photoshop"],
+    linkTo: "/newsletter",
   },
   {
     name: "Rabbit on Bicycle",

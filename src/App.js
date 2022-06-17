@@ -11,6 +11,7 @@ import CaseStudy3 from "./pages/case-studies-pages/case-study-3";
 import PhonicsSystem from "./pages/odds-and-ends-pages/phonics-system";
 import Rabbit from "./pages/odds-and-ends-pages/rabbitBicycle";
 import JapanPostcards from "./pages/odds-and-ends-pages/japanPostcards";
+import Newsletter from "./pages/odds-and-ends-pages/newsletter";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/phonicsproject" element={<PhonicsSystem />} />
         <Route path="/rabbitproject" element={<Rabbit />} />
         <Route path="/japanpostcards" element={<JapanPostcards />} />
+        <Route path="/newsletter" element={<Newsletter />} />
       </Routes>
     </BrowserRouter>
   );
