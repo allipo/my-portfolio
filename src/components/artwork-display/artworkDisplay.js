@@ -28,7 +28,11 @@ function ArtworkDisplay(props) {
           <img src={leftArrow} alt="left carousel arrow" height="100%" />
         </div>
         <div id="artwork-and-caption-holder">
-          <img src={props.picArr[currentIndex].picture} alt="" id="artwork" />
+          {props.svg ? (
+            props.picArr[currentIndex].picture
+          ) : (
+            <img src={props.picArr[currentIndex].picture} alt="" id="artwork" />
+          )}
           <h2 id="caption">{props.picArr[currentIndex].caption}</h2>
         </div>
         <div className="arrow-area" onClick={clickRight}>

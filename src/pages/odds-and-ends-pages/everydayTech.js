@@ -5,16 +5,16 @@ import Footer from "../../components/footer/footer";
 import GoToTop from "../../components/go-to-top/goToTop";
 import ProjectTitle from "./odds-and-ends-components/ProjectTitle";
 import ArtworkDisplay from "../../components/artwork-display/artworkDisplay";
-import phone from "./everyday-tech-assets/phone.svg";
-import pen from "./everyday-tech-assets/pen.svg";
-import mouse from "./everyday-tech-assets/mouse.svg";
-import coffeeCup from "./everyday-tech-assets/coffeecup.svg";
+import { ReactComponent as Phone } from "./everyday-tech-assets/phone.svg";
+import { ReactComponent as Pen } from "./everyday-tech-assets/pen.svg";
+import { ReactComponent as Mouse } from "./everyday-tech-assets/mouse.svg";
+import { ReactComponent as Cup } from "./everyday-tech-assets/coffeecup.svg";
 
 const everydayTechArr = [
-  { picture: phone, caption: "Phone" },
-  { picture: mouse, caption: "Mouse" },
-  { picture: pen, caption: "Pen" },
-  { picture: coffeeCup, caption: "Coffee Cup" },
+  { picture: <Phone />, caption: "Phone" },
+  { picture: <Mouse />, caption: "Mouse" },
+  { picture: <Pen />, caption: "Pen" },
+  { picture: <Cup />, caption: "Coffee Cup" },
 ];
 
 function EverydayTech() {
@@ -22,7 +22,7 @@ function EverydayTech() {
     <>
       <NavBar />
       <ProjectTitle title="Everyday Tech" />
-      <ArtworkDisplay picArr={everydayTechArr} />
+      <ArtworkDisplay picArr={everydayTechArr} svg={true} />
       <Footer />
       <GoToTop />
     </>
