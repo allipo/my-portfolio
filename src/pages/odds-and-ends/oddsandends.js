@@ -92,6 +92,7 @@ let detailedPreviewContent = [
       "Graphic Design",
       "Communication",
       "Collaboration",
+      "Writing/Editing",
     ],
     tools: ["Adobe InDesign", "Adobe Illustrator", "Adobe Photoshop"],
     linkTo: "/newsletter",

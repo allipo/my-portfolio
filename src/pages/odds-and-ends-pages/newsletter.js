@@ -35,7 +35,7 @@ const whiteboardArr = [
   { picture: wb8, caption: "Contributed Recipe" },
   { picture: wb11, caption: "June Issue" },
   { picture: wb12, caption: "Contributed Article" },
-  { picture: wb13, caption: "Illustrated Page from Contributed Article" },
+  { picture: wb13, caption: "Illustration" },
   { picture: wb14, caption: "May Issue" },
   { picture: wb15, caption: "Contributed Article" },
   { picture: wb16, caption: "Teacher Poll" },
