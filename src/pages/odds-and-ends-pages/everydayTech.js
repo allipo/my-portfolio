@@ -12,8 +12,8 @@ import coffeeCup from "./everyday-tech-assets/coffeecup.svg";
 
 const everydayTechArr = [
   { picture: phone, caption: "Phone" },
-  { picture: pen, caption: "Pen" },
   { picture: mouse, caption: "Mouse" },
+  { picture: pen, caption: "Pen" },
   { picture: coffeeCup, caption: "Coffee Cup" },
 ];
 
