@@ -48,10 +48,10 @@ function About() {
             </p>
             <h2 className="about-subheader">Background</h2>
             <p className="about-paragraph">
-              I'm originally from Des Moines, Iowa, but have spent the past
-              several years working abroad in Tokyo as an English conversation
-              teacher and part-time news editor. I'm now headed back home to the
-              States to develop a career in UX.
+              I'm originally from Des Moines, Iowa, but have been living in
+              Houston and working at an internet marketing agency. Before my
+              career change to UX, I spent a number of years working in Tokyo as
+              an English conversation teacher and part-time news editor.
             </p>
             <h2 className="about-subheader">Why UX</h2>
             <p className="about-paragraph">
@@ -64,7 +64,9 @@ function About() {
               However, I first really learned about UX/UI as a career in the
               fall of 2021, when I was learning to code and got hired to make a
               website prototype. I enjoyed the experience so much that a few
-              months later I was enrolled in the Google UX Certificate program.
+              months later I was enrolled in the Google UX Certificate program
+              and a few months after that started my first role as a web
+              designer.
             </p>
             <h2 className="about-subheader">Design Philosophy</h2>
             <p className="about-paragraph">

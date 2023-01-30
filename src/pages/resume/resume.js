@@ -4,7 +4,7 @@ import PageTitle from "../../components/page-title/PageTitle";
 import Footer from "../../components/footer/footer";
 import GoToTop from "../../components/go-to-top/goToTop";
 // import resume from "./resume2022.pdf";
-import resume from "./resume2022.jpg";
+import resume from "./resume2023.jpg";
 import "./resume.css";
 
 let resumeTitle = "Resumé";

@@ -8,7 +8,7 @@ import GoToTop from "../../components/go-to-top/goToTop";
 import project1Pic from "../case-studies/florishAppPreview.webp";
 import project2Pic from "../case-studies/ecopupPreview.webp";
 import project3Pic from "../case-studies/floristPreview.webp";
-import resumeImg from "../resume/resume2022.jpg";
+import resumeImg from "../resume/resume2023.jpg";
 import phonicsPreview from "../odds-and-ends/phonicsPreviewPic.webp";
 import postcardsPreview from "../odds-and-ends/postcardsPreview.webp";
 import rabbitPreview from "../odds-and-ends/Rabbit.webp";
